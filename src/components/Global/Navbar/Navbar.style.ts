@@ -1,108 +1,102 @@
-
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
-    height: 120px;
-    width: 100%;
-    background-color: #080C0F;
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
+  height: 120px;
+  width: 100%;
+  background-color: #080c0f;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
 
-    .logo-container {
-        //background-color: red;
-        max-height: 120px;
-        display: flex;        
+  .logo-container {
+    //background-color: red;
+    max-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .inner-logo-container {
+      height: 100%;
+      width: 80%;
+      display: flex;
+      align-items: center;
+      gap: 5%;
+
+      img {
+        height: 80%;
+      }
+
+      .title-container {
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+        h2 {
+          margin: 0;
+          color: white;
+          cursor: default;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+
+  .list-container {
+    //background-color: orange;
+    display: flex;
+    justify-content: center;
+
+    .inner-list-container {
+      height: 100%;
+      width: 80%;
+      ul {
+        list-style: none;
+        padding-inline-start: 0;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
         align-items: center;
         justify-content: space-around;
 
-        .inner-logo-container {
-            height: 100%;
-            width: 80%;
-            display: flex;
-            align-items: center;
-            gap: 5%;
-
-            img {
-                height: 80%;
-            }
-
-            .title-container {
-                display: flex;
-                flex-direction: column;
-                white-space: nowrap;
-                h2 {
-                    margin: 0;
-                    color: white;
-                    cursor: default;
-                    font-size: 21px;
-                }
-
-            }
-        }  
-    
-    }
-
-    .list-container {
-        //background-color: orange;
-        display: flex;
-        justify-content: center;
-
-        .inner-list-container {
-            height: 100%;
-            width: 80%;
-            ul {
-                list-style: none;
-                padding-inline-start: 0;
-                margin-block-end: 0;
-                margin-block-start : 0;
-                width: 100%;
-                height: 100%;
-                display : flex;
-                align-items: center;
-                justify-content: space-around;
-
-                li {
-                    h3 {
-                        color: white;
-                        opacity: 50%;
-                        transition: 0.5s ease-in-out;
-                        cursor : pointer;
-                        border : 15px solid transparent;
-                        border-radius: 100%;
-        
-                        &:hover {
-                            opacity: 100%;
-                        }
-                    }
-                }
-            }
-        }
-        
-    }
-
-    .flag-container {
-        //background-color: blue;
-        max-height: 120px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap : 20px;
-        img {
-            height: 45%;
-            border-radius : 100%;
-            border : 2px solid transparent;
+        li {
+          h3 {
+            color: white;
+            opacity: 50%;
             transition: 0.5s ease-in-out;
             cursor: pointer;
+            border: 15px solid transparent;
+            border-radius: 100%;
 
             &:hover {
-                box-shadow: 0px 0px 10px 3px white;
+              opacity: 100%;
             }
+          }
         }
+      }
+    }
+  }
 
-        .active {
-            border : 2px solid white;
-        }
+  .flag-container {
+    //background-color: blue;
+    max-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    img {
+      height: 45%;
+      border-radius: 100%;
+      border: 2px solid transparent;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
 
+      &:hover {
+        box-shadow: 0px 0px 10px 3px white;
+      }
     }
 
-`
+    .active {
+      border: 2px solid white;
+    }
+  }
+`;
