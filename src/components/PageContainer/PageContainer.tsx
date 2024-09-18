@@ -25,8 +25,8 @@ export const PageContainer = () => {
   useEffect(()=>{
     if (!isAtTop) {
       if(navbarRef && navbarRef.current){
-        navbarRef.current.style.top = "-120px"
-        navbarRef.current.style.transform = "translateY(100%)"
+        navbarRef.current.style.top = "0"
+        navbarRef.current.style.transform = "translateY(0%)"
         navbarRef.current.style.transition = "transform 0.3s ease"
       }
     }else {

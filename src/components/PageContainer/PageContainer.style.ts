@@ -17,7 +17,7 @@ export const PageContainerDiv = styled.div<PageContainerDivProps>`
     background-size: cover;
     
     .navbar {
-        position: ${({isAtTop})=>isAtTop ? "absolute" : "fixed"};
+        position: fixed;
         top: 0;
         z-index: 999;
     }
@@ -39,6 +39,7 @@ export const PageContainerDiv = styled.div<PageContainerDivProps>`
         transition: 1s ease-in-out;
         cursor: ${({isAtTop})=>isAtTop ? "default" : "pointer"};
         border : none;
+        z-index: 999;
 
         &:hover {
             box-shadow: 0 0 5px 5px aqua;

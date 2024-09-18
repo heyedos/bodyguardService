@@ -14,11 +14,12 @@ export const AboutUs = ({aboutUsRef} : AboutUsProps) => {
         <div className="inner-container">
             <div className="title-container">
                 <h1>Bodyguard Services in Turkey</h1>
+                <h1>Bodyguard Services in İstanbul</h1>
             </div>
             <div className="bottom-container">
-                <div className="image-container">
+                {/* <div className="image-container">
                     <img src={AboutUsIMage} />
-                </div>
+                </div> */}
                 <div className="text-button-container">
                     <p>
                         We have been providing bodyguard services to guests from all over the world in Turkey for 20 years.
@@ -31,9 +32,9 @@ export const AboutUs = ({aboutUsRef} : AboutUsProps) => {
                         They are fully trained to produce quick solutions and act even in extraordinary situations and conditions.
                         The focus is to protect the guest without any problems under all circumstances.
                     </p>
-                    <div className="button-container">
+                    {/* <div className="button-container">
                         <button>Read More</button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

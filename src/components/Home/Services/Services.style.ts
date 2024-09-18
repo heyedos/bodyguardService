@@ -25,7 +25,7 @@ export const ServicesContainer = styled.div`
             height: 100%;
             width: 100%;
             /* background-image: url(${background}); */
-            background-color: black;
+            background-color: white;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -69,7 +69,7 @@ export const ServicesContainer = styled.div`
                 border-radius: 10px;
                 box-sizing: border-box;
                 padding: 2%; 
-                color : white;
+                color : black;
 
                 h1 {
                     text-align: center;
@@ -95,7 +95,7 @@ export const ServicesContainer = styled.div`
             padding: 20px;
             /* border : 5px solid white; */
             position: relative;
-            color : white;
+            color : black;
 
             .image-container {
                 height: 20%;
