@@ -82,9 +82,9 @@ export const NavbarContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     img {
-      height: 45%;
+      height: 40%;
       border-radius: 100%;
       border: 2px solid transparent;
       transition: 0.5s ease-in-out;

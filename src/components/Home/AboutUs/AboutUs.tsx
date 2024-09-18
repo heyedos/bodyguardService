@@ -2,15 +2,27 @@
 import { AboutUsContainer } from "./AboutUs.style";
 //Images
 import AboutUsIMage from "../../../assets/about_us/7.jpeg";
-import { RefObject } from "react";
+import { RefObject, useEffect, useState } from "react";
 import { servicesText } from "../Services/Languages";
 
 interface AboutUsProps {
   aboutUsRef: RefObject<HTMLDivElement>;
+  selectedLanguage: string;
 }
 
-export const AboutUs = ({ aboutUsRef }: AboutUsProps) => {
-  const lang = servicesText.english;
+export const AboutUs = ({ aboutUsRef, selectedLanguage }: AboutUsProps) => {
+  const [lang, setLang] = useState(servicesText.english);
+  useEffect(() => {
+    if (selectedLanguage === "english") {
+      setLang(servicesText.english);
+    } else if (selectedLanguage === "turkish") {
+      setLang(servicesText.turkish);
+    } else if (selectedLanguage === "russian") {
+      setLang(servicesText.russian);
+    } else if (selectedLanguage === "ukraine") {
+      setLang(servicesText.ukraine);
+    }
+  }, [selectedLanguage]);
   return (
     <AboutUsContainer ref={aboutUsRef}>
       <div className="inner-container">

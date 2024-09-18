@@ -9,6 +9,7 @@ import { Footer } from "../Global/Footer/Footer";
 import { SlArrowUp } from "react-icons/sl";
 
 export const PageContainer = () => {
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("english");
   const [isAtTop, setIsAtTop] = useState<boolean>(true);
   const [scrollY, setScrollY] = useState<number>(window.scrollY);
 
@@ -58,8 +59,16 @@ export const PageContainer = () => {
 
   return (
     <PageContainerDiv {...{ isAtTop, scrollY }}>
-      <Navbar {...{ isAtTop, scrollToItem, navbarRef }} />
-      <Outlet context={{ aboutUsRef, servicesRef }} />
+      <Navbar
+        {...{
+          isAtTop,
+          scrollToItem,
+          navbarRef,
+          setSelectedLanguage,
+          selectedLanguage,
+        }}
+      />
+      <Outlet context={{ aboutUsRef, servicesRef, selectedLanguage }} />
       <button className="scroll-to-top" onClick={scrollToTop}>
         <SlArrowUp />
       </button>

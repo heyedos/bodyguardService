@@ -1,7 +1,7 @@
 //Styling
 import { ServicesContainer } from "./Services.style";
 //Packages
-import { RefObject } from "react";
+import { RefObject, useEffect, useState } from "react";
 //Images
 import { images } from "./ServicesImages";
 
@@ -9,10 +9,23 @@ import { servicesText } from "./Languages";
 
 interface ServicesProps {
   servicesRef: RefObject<HTMLDivElement>;
+  selectedLanguage: string;
 }
 
-export const Services = ({ servicesRef }: ServicesProps) => {
-  const lang = servicesText.english;
+export const Services = ({ servicesRef, selectedLanguage }: ServicesProps) => {
+  const [lang, setLang] = useState(servicesText.english);
+  useEffect(() => {
+    if (selectedLanguage === "english") {
+      setLang(servicesText.english);
+    } else if (selectedLanguage === "turkish") {
+      setLang(servicesText.turkish);
+    } else if (selectedLanguage === "russian") {
+      setLang(servicesText.russian);
+    } else if (selectedLanguage === "ukraine") {
+      setLang(servicesText.ukraine);
+    }
+  }, [selectedLanguage]);
+
   return (
     <ServicesContainer ref={servicesRef}>
       <div className="inner-container">
