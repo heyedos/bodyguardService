@@ -22,7 +22,7 @@ export const Services = ({ servicesRef }: ServicesProps) => {
           </div> */}
           <div className="text-container">
             <h1>{lang.bodyguard.title}</h1>
-            <h1>{lang.bodyguard.title}</h1>
+            <h1>{lang.bodyguard.title2}</h1>
             <p>{lang.bodyguard.content}</p>
           </div>
         </div>
