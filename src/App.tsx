@@ -10,8 +10,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PageContainer />}>
-          <Route index path="/home" element={<Home />} />
+        <Route path="" element={<PageContainer />}>
+          <Route index element={<Home />} />
         </Route>
       </Routes>
     </BrowserRouter>
