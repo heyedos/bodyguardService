@@ -5,7 +5,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   background-color: #080c0f;
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 23% 50% 22%;
 
   .logo-container {
     //background-color: red;
@@ -82,7 +82,7 @@ export const NavbarContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
     img {
       height: 40%;
       border-radius: 100%;

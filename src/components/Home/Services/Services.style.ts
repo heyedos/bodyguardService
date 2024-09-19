@@ -73,7 +73,7 @@ export const ServicesContainer = styled.div`
       width: 80%;
       display: flex;
 
-      justify-content: space-between;
+      justify-content: center;
       padding: 20px;
       /* border : 5px solid white; */
       color: black;
