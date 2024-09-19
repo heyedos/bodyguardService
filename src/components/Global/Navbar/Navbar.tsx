@@ -21,6 +21,7 @@ export const Navbar = ({
   setSelectedLanguage,
   selectedLanguage,
 }: NavbarProps) => {
+  console.log(selectedLanguage);
   return (
     <NavbarContainer ref={navbarRef} className={`navbar`}>
       <div className="logo-container">
@@ -87,6 +88,16 @@ export const Navbar = ({
           onClick={() => setSelectedLanguage("ukraine")}
           src={flags.UkraineFlag}
           className={`${selectedLanguage === "ukraine" ? "active" : ""}`}
+        />
+        <img
+          onClick={() => setSelectedLanguage("italian")}
+          src={flags.ItalianFlag}
+          className={`${selectedLanguage === "italian" ? "active" : ""}`}
+        />
+        <img
+          onClick={() => setSelectedLanguage("persian")}
+          src={flags.IranFlag}
+          className={`${selectedLanguage === "persian" ? "active" : ""}`}
         />
       </div>
     </NavbarContainer>

@@ -23,6 +23,14 @@ export const Services = ({ servicesRef, selectedLanguage }: ServicesProps) => {
       setLang(servicesText.russian);
     } else if (selectedLanguage === "ukraine") {
       setLang(servicesText.ukraine);
+    } else if (selectedLanguage === "german") {
+      setLang(servicesText.german);
+    } else if (selectedLanguage === "arabic") {
+      setLang(servicesText.arabic);
+    } else if (selectedLanguage === "italian") {
+      setLang(servicesText.italian);
+    } else if (selectedLanguage === "persian") {
+      setLang(servicesText.persian);
     }
   }, [selectedLanguage]);
 
