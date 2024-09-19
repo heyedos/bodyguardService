@@ -21,7 +21,6 @@ export const Navbar = ({
   setSelectedLanguage,
   selectedLanguage,
 }: NavbarProps) => {
-  console.log(selectedLanguage);
   return (
     <NavbarContainer ref={navbarRef} className={`navbar`}>
       <div className="logo-container">
