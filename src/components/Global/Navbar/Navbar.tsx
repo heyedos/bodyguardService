@@ -2,6 +2,7 @@
 import { NavbarContainer } from "./Navbar.style";
 //Images
 import logo from "../../../assets/logo/IMG-20240204-WA0003.jpg";
+import wpIcon from "../../../assets/logo/wpIcon.png";
 import { flags } from "./Flags";
 //Packages
 import { RefObject, useState } from "react";
@@ -21,6 +22,7 @@ export const Navbar = ({
   setSelectedLanguage,
   selectedLanguage,
 }: NavbarProps) => {
+  const [numberOpen, setNumberOpen] = useState<boolean>(false);
   return (
     <NavbarContainer ref={navbarRef} className={`navbar`}>
       <div className="logo-container">
@@ -51,8 +53,16 @@ export const Navbar = ({
             <li>
               <h3>References</h3>
             </li>
-            <li>
+            <li className="wpIcon">
               <h3>Contact</h3>
+              <img
+                src={wpIcon}
+                alt="whatshapp icon"
+                onClick={() => {
+                  setNumberOpen((e) => !e);
+                }}
+              />
+              {numberOpen && <p className="popupNumber">+90 543 881 8113 </p>}
             </li>
           </ul>
         </div>
@@ -97,6 +107,41 @@ export const Navbar = ({
           onClick={() => setSelectedLanguage("persian")}
           src={flags.IranFlag}
           className={`${selectedLanguage === "persian" ? "active" : ""}`}
+        />
+        <img
+          onClick={() => setSelectedLanguage("chinese")}
+          src={flags.chineseFlag}
+          className={`${selectedLanguage === "chinese" ? "active" : ""}`}
+        />
+        <img
+          onClick={() => setSelectedLanguage("french")}
+          src={flags.frenchFlag}
+          className={`${selectedLanguage === "french" ? "active" : ""}`}
+        />
+        <img
+          onClick={() => setSelectedLanguage("greece")}
+          src={flags.greeceFlag}
+          className={`${selectedLanguage === "greece" ? "active" : ""}`}
+        />
+        <img
+          onClick={() => setSelectedLanguage("japon")}
+          src={flags.japonFlag}
+          className={`${selectedLanguage === "japon" ? "active" : ""}`}
+        />
+        <img
+          onClick={() => setSelectedLanguage("korean")}
+          src={flags.koreanFlag}
+          className={`${selectedLanguage === "korean" ? "active" : ""}`}
+        />
+        <img
+          onClick={() => setSelectedLanguage("pakistan")}
+          src={flags.pakistanFlag}
+          className={`${selectedLanguage === "pakistan" ? "active" : ""}`}
+        />
+        <img
+          onClick={() => setSelectedLanguage("romanian")}
+          src={flags.romanianFlag}
+          className={`${selectedLanguage === "romanian" ? "active" : ""}`}
         />
       </div>
     </NavbarContainer>

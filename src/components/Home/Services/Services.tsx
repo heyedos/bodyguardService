@@ -31,6 +31,20 @@ export const Services = ({ servicesRef, selectedLanguage }: ServicesProps) => {
       setLang(servicesText.italian);
     } else if (selectedLanguage === "persian") {
       setLang(servicesText.persian);
+    } else if (selectedLanguage === "french") {
+      setLang(servicesText.french);
+    } else if (selectedLanguage === "greece") {
+      setLang(servicesText.greek);
+    } else if (selectedLanguage === "japon") {
+      setLang(servicesText.japon);
+    } else if (selectedLanguage === "korean") {
+      setLang(servicesText.korean);
+    } else if (selectedLanguage === "romanian") {
+      setLang(servicesText.romanian);
+    } else if (selectedLanguage === "pakistan") {
+      setLang(servicesText.urdu);
+    } else if (selectedLanguage === "chinese") {
+      setLang(servicesText.chinese);
     }
   }, [selectedLanguage]);
 
@@ -126,7 +140,7 @@ export const Services = ({ servicesRef, selectedLanguage }: ServicesProps) => {
           </div> */}
         </div>
         <div className="keyWords">
-          <p>{"keywords: " + lang.keywords.content}</p>
+          <p>{"Keywords: " + lang.keywords.content}</p>
         </div>
       </div>
     </ServicesContainer>

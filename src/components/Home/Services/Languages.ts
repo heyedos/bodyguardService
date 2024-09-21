@@ -461,4 +461,424 @@ Unser Unternehmen, das beste private Sicherheitsunternehmen in Istanbul und der 
         "Leibwächterdienst in Istanbul. Leibwächterdienst in der Türkei. Personenschutz Istanbul. Personenschutz Türkei. Personenschutzdienst Istanbul. Leibwächterunternehmen Istanbul. Leibwächterunternehmen Türkei. Der beste Leibwächterservice in Istanbul. Der beste Leibwächterservice Türkei. Leibwächter Türkei. Leibwächter Istanbul. Leibwächterservice Antalya. Leibwächter Antalya. Private Sicherheit in Istanbul. Privater Sicherheitsdienst Istanbul. Privates Sicherheitsunternehmen Istanbul. Privates Sicherheitsunternehmen Türkei. Leibwächterservice in Türkei. Leibwächter Türkei.",
     },
   },
+  french: {
+    bodyguardTitle: {
+      title: "Services de garde du corps en Turquie",
+      title2: "Services de garde du corps à Istanbul",
+      content: `Nous fournissons des services de garde du corps à nos clients du monde entier depuis 20 ans à Istanbul et dans toute la Turquie. Nous fournissons actuellement des services de garde du corps à des centaines d'entreprises en Turquie, notamment Nike, Toyota et Oppo. La sécurité des joueurs de football et de tous les hauts fonctionnaires a été assurée par notre entreprise lors du match de finale de la Ligue des champions joué en Turquie en 2023. De plus, l'ancien chancelier allemand Gerhard Schröder et le président français Jacques Chirac font partie des personnes à qui nous avons déjà fourni des services de protection. . 
+Nos gardes sont des professionnels dans leur domaine. Ils sont formés pour produire des solutions rapides et agir même dans des situations et des conditions extraordinaires. L'objectif est de protéger le client sans aucun problème en toutes circonstances.`,
+    },
+    bodyguard: {
+      title: "Entreprise de garde du corps en Turquie",
+      title2: "Entreprise de garde du corps à Istanbul",
+      content: `Actuellement, en plus de nos gardes du corps personnels, nous servons près de 400 entreprises dans toute la Turquie avec nos près de 3000 employés. Les lieux où nous fournissons des services de garde du corps et de sécurité privée comprennent les holdings, les centrales électriques, les usines, les magasins, les aéroports, les stades, les résidences, les villas, les lieux de réunion et les personnes qui se sentent menacées.
+Notre entreprise propose également un service de garde du corps avec des véhicules de luxe en Turquie.`,
+    },
+    armed: {
+      title: "Garde du corps armé Turquie",
+      title2: "Garde du corps armé Istanbul",
+      content: `Tous nos gardes du corps armés sont composés de membres de la police et des forces spéciales qui sont des professionnels de l'utilisation des armes. Dans toute situation et condition extraordinaires, nos gardes du corps présentent leurs cartes d'identité de police et résolvent les incidents dans un délai plus court.`,
+    },
+    unarmed: {
+      title: "Garde du corps non armé Turquie",
+      title2: "Garde du corps non armé Istanbul",
+      content: `Nos gardes du corps non armés
+se composent de personnes ayant reçu une formation de défense rapprochée et ayant un physique solide. Ils ont toutes les compétences et capacités requises pour protéger les invités dans des situations indésirables.`,
+      content2:
+        "Service de garde du corps Istanbul Code de conduite et politique d'éthique des affaires Tous nos gardes du corps suivent une formation d'orientation avec 3 personnes différentes au siège de notre entreprise avant de commencer leurs fonctions. Nous soumettons tous nos gardes du corps qui ont réussi la formation d'orientation à un test qui couvre toutes les questions liées à leurs fonctions avant de pouvoir commencer leurs fonctions. Les gardes du corps qui réussissent l'ensemble du processus d'orientation et de test commencent leurs fonctions.",
+    },
+    employee: {
+      title: "Audit des performances des employés",
+      content: `Nous avons une équipe d'inspection qui inspecte tout le personnel et les gardes du corps. Ces audits visent à augmenter la qualité du service et la satisfaction future des clients.`,
+    },
+    risk: {
+      title: "Évaluation des risques",
+      content: `Avant la mission, nos équipes spéciales se rendent dans les zones où le service de garde du corps sera effectué, examinent la zone où la mission sera effectuée et créent une analyse des risques pour la zone à risque. Nous évaluons vos analyses de risques à notre siège et les partageons avec nos clients.`,
+      content2:
+        "Aucun de nos gardes du corps ne consomme d'alcool pendant son service.",
+    },
+    firstAid: {
+      title: "Service de premiers secours",
+      content: `Tous nos gardes du corps en poste dans toute la Turquie ont reçu une formation aux premiers secours et peuvent fournir des services de premiers secours à tous nos clients en cas d'incident indésirable. De plus, nous disposons d'une équipe d'experts en premiers secours au siège de notre entreprise qui sont prêts à se rendre sur les lieux de l'incident et à emmener le client à l'hôpital si nécessaire.`,
+    },
+    mercedesVito: {
+      title: "Voitures Mercedes Vito Istanbul",
+      content: `Conformément aux demandes de nos clients, nous fournissons un service de garde du corps professionnel avec nos véhicules Vito à Istanbul.`,
+    },
+    private: {
+      title: "Société de sécurité privée Turquie",
+      title2: "Société de sécurité privée Istanbul",
+      content: `Notre société est la seule société de protection rapprochée en Turquie qui peut fournir des services professionnels de sécurité privée et de garde du corps. Nous fournissons des services de garde du corps à des centaines d'entreprises et à des milliers de personnes chaque année depuis 20 ans avec notre personnel expert. Nous avons des gardes du corps adaptés à chaque entreprise et à chaque personne. Notre entreprise, qui répond aux normes mondiales de protection rapprochée et possède tous les certificats dans ce domaine, est hautement reconnue dans de nombreuses régions du monde, notamment en Europe, au Moyen-Orient et en Asie.
+Notre entreprise, qui est la meilleure société de sécurité privée à Istanbul et dans toute la Turquie, poursuit ses activités depuis des années sans interruption. Notre société de sécurité privée, qui fournit des services aux stars d'Hollywood, aux présidents et aux premiers ministres en Turquie, fournit des services de sécurité privée dans toutes les régions de Turquie avec des agents de sécurité professionnels en Turquie et à Istanbul. En tant qu'entreprise de sécurité privée à Istanbul, nous sommes à votre service avec nos agents de sécurité qui dominent toutes les parties d'Istanbul.`,
+    },
+    bodyguardAntalya: {
+      title: "Services de garde du corps à Antalya",
+      title2: "Sécurité privée à Antalya",
+      content: `Nous fournissons un service de garde du corps professionnel à nos clients à Antalya. Notre entreprise est la seule entreprise à pouvoir fournir un service de garde du corps professionnel à Antalya avec nos équipes d'experts. La sécurité est toujours devenue une nécessité pour les clients d'Antalya, l'une des villes les plus touristiques de Turquie. Nos gardes du corps, qui connaissent la structure et la vie de la ville, vous serviront à Antalya en toute tranquillité d'esprit.`,
+    },
+    keywords: {
+      content:
+        "Service de garde du corps à Istanbul. Service de garde du corps en Turquie. Protection rapprochée Istanbul. Protection rapprochée Turquie. Service de protection rapprochée Istanbul. Entreprise de garde du corps Istanbul. Entreprise de garde du corps Turquie. Le meilleur service de garde du corps à Istanbul. Le meilleur service de garde du corps en Turquie. Garde du corps Turquie. Garde du corps Istanbul. Service de garde du corps Antalya. Garde du corps Antalya. Sécurité privée à Istanbul. Service de sécurité privée Istanbul. Entreprise de sécurité privée Istanbul. Entreprise de sécurité privée Turquie. Service de garde du corps en Turquie. Garde du corps Turquie.",
+    },
+  },
+  chinese: {
+    bodyguardTitle: {
+      title: "土耳其保镖服务",
+      title2: "伊斯坦布尔保镖服务",
+      content: `20 年来，我们一直在伊斯坦布尔和整个土耳其为来自世界各地的客人提供保镖服务。我们目前为土耳其的数百家公司提供保镖服务，尤其是耐克、丰田和 Oppo。我们公司在 2023 年在土耳其举行的欧洲冠军联赛决赛中确保了足球运动员和所有高级官员的安全。此外，前德国总理格哈德·施罗德和法国总统雅克·希拉克也是我们之前提供保护服务的人之一。我们的保镖都是各自领域的专业人士。他们经过培训，即使在特殊情况和条件下也能快速解决问题并采取行动。重点是在任何情况下都保护客人，不会出现任何问题。`,
+    },
+    bodyguard: {
+      title: "土耳其保镖公司",
+      title2: "伊斯坦布尔保镖公司",
+      content: `目前，除了我们的私人保镖外，我们还为土耳其各地近 400 家公司提供服务，拥有近 3000 名员工。我们提供保镖和私人保安服务的地方包括控股公司、发电厂、工厂、商店、机场、体育场、住宅、别墅、会议区和感到受到威胁的人。
+我们公司还在土耳其提供豪华车辆保镖服务。`,
+    },
+    armed: {
+      title: "土耳其武装保镖",
+      title2: "伊斯坦布尔武装保镖",
+      content: `我们所有的武装保镖都是警察和特种部队的成员，他们是使用武器的专业人士。在任何特殊情况和条件下，我们的保镖都会出示他们的警察证件并在更短的时间内解决事件。`,
+    },
+    unarmed: {
+      title: "土耳其未武装保镖",
+      title2: "伊斯坦布尔未武装保镖",
+      content: `我们的未武装保镖
+由接受过近身防御训练且体格强健的人员组成。他们具备在恶劣情况下保护客人所需的所有技能和能力。`,
+      content2:
+        "伊斯坦布尔保镖服务行为准则和商业道德政策 我们所有的保镖在开始工作前都会在我们公司总部接受 3 个不同人员的入职培训。我们会让所有成功通过入职培训的保镖在开始工作前接受涵盖与其工作相关的所有问题的测试。成功通过整个入职培训和测试过程的保镖将开始工作。",
+    },
+    employee: {
+      title: "员工绩效审计",
+      content: `我们有一个检查小组，负责检查所有人员和保镖。这些审计旨在提高服务质量和未来的客户满意度。`,
+    },
+    risk: {
+      title: "风险评估",
+      content: `在执行任务之前，我们的特别小组会前往将执行保镖服务的地区，检查将执行任务的地区并为风险区域创建风险分析。我们在总部评估您的风险分析，并与我们的客户分享。`,
+      content2: "我们的保镖在值班时均不饮酒。",
+    },
+    firstAid: {
+      title: "急救服务",
+      content: `我们在土耳其各地服务的所有保镖都接受过急救培训，可以在发生任何不良事件时为所有客人提供急救服务。此外，我们公司总部还有一支急救专家团队，随时准备前往事故现场并在必要时将客人送往医院。`,
+    },
+    mercedesVito: {
+      title: "伊斯坦布尔梅赛德斯 Vito 汽车",
+      content: `根据客户的需求，我们在伊斯坦布尔使用 Vito 车辆提供专业保镖服务。`,
+    },
+    private: {
+      title: "土耳其私人保安公司",
+      title2: "伊斯坦布尔私人保安公司",
+      content: `我们公司是土耳其唯一一家可以提供专业私人保镖和保镖服务的近身保护公司。20 年来，我们每年都通过我们的专业员工为数百家公司和数千人提供保镖服务。我们有适合每家公司和个人的保镖。我们的公司符合世界近身保护标准，并拥有该领域的所有证书，在世界许多地方都受到高度认可，尤其是在欧洲、中东和亚洲。
+
+我们的公司是伊斯坦布尔和整个土耳其最好的私人保安公司，多年来一直不间断地开展业务。我们的私人保安公司为土耳其的好莱坞明星、总统和总理提供服务，为土耳其各地提供私人保安服务，在土耳其和伊斯坦布尔拥有专业的保安人员。作为伊斯坦布尔的一家私人保安公司，我们的保安人员遍布伊斯坦布尔的各个地区，随时为您服务。
+`,
+    },
+    bodyguardAntalya: {
+      title: "安塔利亚的保镖服务",
+      title2: "安塔利亚的私人保安",
+      content: `我们为安塔利亚的客人提供专业的保镖服务。我们公司是唯一一家拥有专业团队的公司，可以提供安塔利亚的专业保镖服务。安塔利亚是土耳其最具旅游价值的城市之一，安全一直是游客的需要。我们的保镖熟悉城市结构和生活，将让您在安塔利亚安心无忧地为您服务。`,
+    },
+    keywords: {
+      content:
+        "伊斯坦布尔的保镖服务。土耳其的保镖服务。伊斯坦布尔的近身保护。土耳其的近身保护。伊斯坦布尔的近身保护服务。伊斯坦布尔的保镖公司。土耳其的保镖公司。伊斯坦布尔最好的保镖服务。土耳其最好的保镖服务。土耳其的保镖。伊斯坦布尔的保镖。安塔利亚的保镖服务。安塔利亚的保镖。伊斯坦布尔的私人保安。伊斯坦布尔的私人保安服务。伊斯坦布尔的私人保安公司。土耳其的私人保安公司。土耳其的保镖服务。土耳其的保镖。",
+    },
+  },
+  romanian: {
+    bodyguardTitle: {
+      title: "Servicii de gardă de corp în Turcia",
+      title2: "Servicii de gardă de corp în İstanbul",
+      content: `Oferim servicii de gardă de corp oaspeților noștri din întreaga lume de 20 de ani în Istanbul și în toată Turcia. În prezent oferim servicii de gardă de corp pentru sute de companii din Turcia, în special Nike, Toyota și Oppo. Securitatea jucătorilor de fotbal și a tuturor oficialilor înalți a fost asigurată de compania noastră în meciul final al Ligii Campionilor disputat în Turcia în 2023. În plus, fostul cancelar german Gerhard Schröder și președintele francez Jacques Chirac se numără printre persoanele cărora le-am oferit anterior servicii de protecție. la. . 
+Gardienii noștri sunt profesioniști în domeniile lor. Ei sunt instruiți să producă soluții rapide și să ia măsuri chiar și în situații și condiții extraordinare. Accentul este de a proteja oaspetele fără probleme în toate circumstanțele.`,
+    },
+    bodyguard: {
+      title: "Companie de bodyguard din Turcia",
+      title2:
+        "Companie de bodyguard din istanbul. protecţie apropiată İstanbul",
+      content: `În prezent, pe lângă gărzile noastre de corp personali, deservim aproape 400 de companii din Turcia cu cei aproape 3000 de angajați. Locurile în care oferim servicii de gardă de corp și securitate privată includ exploatații, centrale electrice, fabrici, magazine, aeroporturi, stadioane, reședințe, vile, zone de întâlnire și persoane care se simt amenințate.
+Compania noastra ofera si serviciul de paza de corp cu vehicule de lux in Turcia.
+`,
+    },
+    armed: {
+      title: "Bodyguard înarmat Turcia",
+      title2: "Bodyguard înarmat İstanbul",
+      content: `Toți gărzile noastre de corp înarmate sunt formate din membri ai Poliției și ai forțelor speciale care sunt profesioniști în folosirea armelor.  În orice situație și stare extraordinară, bodyguarzii noștri își arată legitimațiile de poliție și rezolvă incidentele într-un timp mai scurt.`,
+    },
+    unarmed: {
+      title: "Bodyguard neînarmat Turcia",
+      title2: "Bodyguard neînarmat Istanbul",
+      content: `Gărzile noastre de corp neînarmate
+constau din persoane care au primit o pregătire strânsă de apărare și au un fizic puternic. Au toate abilitățile și abilitățile necesare pentru a proteja oaspeții în situații nedorite.`,
+      content2:
+        "Serviciul de gardă de corp din Istanbul Cod de conduită și politică de etică în afaceri Toți gărzile noastre de corp urmează cursuri de orientare cu 3 persoane diferite la sediul companiei noastre înainte de a-și începe atribuțiile. Îi supunem pe toți gărzile noastre de corp care au promovat cu succes instruirea de orientare la un test care acoperă toate aspectele legate de atribuțiile lor înainte de a-și putea începe atribuțiile. Gărzile de corp care trec cu succes întregul proces de orientare și testare își încep sarcinile.",
+    },
+    employee: {
+      title: "Auditul performanței angajaților",
+      content: `Avem o echipă de inspecție care inspectează tot personalul și bodyguarzii. Aceste audituri au scopul de a crește calitatea serviciilor și satisfacția viitoare a clienților.`,
+    },
+    risk: {
+      title: "Evaluare a riscurilor",
+      content: `Înainte de misiune, echipele noastre speciale merg în zonele în care se va desfășura serviciul de gardă de corp, examinează zona în care se va desfășura misiunea și realizează o analiză de risc pentru zona de risc. Evaluăm analizele dumneavoastră de risc la sediul nostru și le împărtășim clienților noștri. `,
+      content2:
+        "Niciunul dintre gărzile noastre de corp nu consumă alcool în timpul serviciului.",
+    },
+    firstAid: {
+      title: "Serviciu de prim ajutor",
+      content: `Toți gardienii noștri de corp care servesc în toată Turcia au primit instruire de prim ajutor și pot oferi servicii de prim ajutor tuturor oaspeților noștri în cazul oricărui incident nedorit. În plus, avem o echipă de experți în prim-ajutor la sediul companiei noastre care sunt gata să meargă la locul incidentului și să ducă oaspetele la spital atunci când este necesar.`,
+    },
+    mercedesVito: {
+      title: "Mercedes Vito Cars İstanbul",
+      content: `În conformitate cu cerințele clienților noștri, oferim servicii profesionale de gardă de corp cu vehiculele noastre Vito din Istanbul.`,
+    },
+    private: {
+      title: "Companie privată de securitate din Turcia",
+      title2: "companie de securitate privată istanbul",
+      content: `Compania noastră este singura companie de protecție apropiată din Turcia care poate oferi servicii profesionale de securitate privată și de gardă de corp. Oferim servicii de gardă de corp sute de companii și mii de oameni în fiecare an de 20 de ani cu personalul nostru de experți. Avem gărzi de corp potrivite pentru fiecare companie și persoană. Compania noastră, care respectă standardele mondiale de protecție apropiată și deține toate certificatele în acest domeniu, este foarte recunoscută în multe părți ale lumii, în special în Europa, Orientul Mijlociu și Asia.
+Compania noastră, care este cea mai bună companie de securitate privată din Istanbul și din toată Turcia, își continuă activitățile de ani de zile fără întrerupere. Compania noastră de securitate privată, care oferă servicii vedetelor de la Hollywood, președinților și prim-miniștrilor din Turcia, oferă servicii de securitate privată în toate părțile Turciei cu ofițeri de securitate profesioniști în Turcia și Istanbul. În calitate de companie de securitate privată din Istanbul, vă stăm la dispoziție cu ofițerii noștri de securitate care domină toate părțile din Istanbul.`,
+    },
+    bodyguardAntalya: {
+      title: "Servicii de gardă de corp în antalya",
+      title2: "Securitate privată în antalya",
+      content: `Oferim servicii profesionale de gardă de corp oaspeților noștri din Antalya. Compania noastră este singura companie care poate oferi servicii profesionale de gardă de corp în Antalya cu echipele noastre de experți. Securitatea a devenit întotdeauna o nevoie pentru oaspeții din Antalya, unul dintre cele mai turistice orașe din Turcia. Gărzile noastre de corp, care sunt familiarizate cu structura și viața orașului, vă vor servi în Antalya cu liniște sufletească.`,
+    },
+    keywords: {
+      content:
+        "Serviciu de protecție apropiată Istanbul. Compania de bodyguard istanbul. Compania de bodyguard din curcan. Cel mai bun serviciu de gardă de corp din Istanbul. Cel mai bun serviciu de gardă de corp din curcan. Bodyguard Turcia. Bodyguard Istanbul. Serviciul de gardă de corp antalya. Bodyguard Antalya. securitate privată în istanbul. serviciu de securitate privată istanbul. companie de securitate privată istanbul. companie de securitate privată din Turcia. Serviciu de gardă de corp în türkiye. Bodyguard türkiyen.",
+    },
+  },
+  korean: {
+    bodyguardTitle: {
+      title: "터키의 보디가드 서비스",
+      title2: "이스탄불의 보디가드 서비스 이스탄불의 밀착 보호",
+      content: `저희는 20년 동안 이스탄불과 터키 전역에서 전 세계 고객에게 보디가드 서비스를 제공해 왔습니다. 현재 터키의 수백 개 회사, 특히 Nike, Toyota, Oppo에 보디가드 서비스를 제공하고 있습니다. 저희 회사는 2023년 터키에서 열린 챔피언스리그 결승전에서 축구 선수와 모든 고위 임원의 보안을 보장했습니다. 또한 전 독일 총리 게르하르트 슈뢰더와 프랑스 대통령 자크 시라크는 저희가 이전에 보호 서비스를 제공한 사람들 중 일부입니다. . 
+저희 경비원은 해당 분야의 전문가입니다. 그들은 빠른 해결책을 제시하고 특별한 상황과 조건에서도 조치를 취하도록 훈련받았습니다. 초점은 어떤 상황에서도 문제 없이 손님을 보호하는 것입니다.`,
+    },
+    bodyguard: {
+      title: "터키의 보디가드 회사",
+      title2: "이스탄불의 보디가드 회사",
+      content: `현재 저희는 개인 보디가드 외에도 터키 전역의 약 400개 회사에 약 3,000명의 직원을 두고 서비스를 제공하고 있습니다. 우리가 보디가드와 사설 보안 서비스를 제공하는 장소에는 홀딩, 발전소, 공장, 매장, 공항, 경기장, 거주지, 빌라, 회의장 및 위협을 느끼는 사람들이 포함됩니다.
+우리 회사는 또한 터키에서 고급 차량으로 보디가드 서비스를 제공합니다.`,
+    },
+    armed: {
+      title: "터키 무장 보디가드",
+      title2: "이스탄불 무장 보디가드",
+      content: `우리의 모든 무장 보디가드는 무기 사용에 능숙한 경찰과 특수 부대원으로 구성되어 있습니다. 특별한 상황과 조건에서 보디가드는 경찰 신분증을 보여주고 더 짧은 시간 내에 사건을 해결합니다.`,
+    },
+    unarmed: {
+      title: "터키 비무장 보디가드",
+      title2: "이스탄불 비무장 보디가드",
+      content: `우리의 비무장 보디가드는
+긴밀한 방어 훈련을 받고 강한 체격을 가진 사람들로 구성되어 있습니다. 그들은 바람직하지 않은 상황에서 손님을 보호하는 데 필요한 모든 기술과 능력을 갖추고 있습니다.`,
+      content2:
+        "이스탄불 보디가드 서비스 행동 강령 및 기업 윤리 정책 모든 보디가드는 업무를 시작하기 전에 회사 본사에서 3명의 다른 사람과 함께 오리엔테이션 교육을 받습니다. 오리엔테이션 교육을 성공적으로 통과한 모든 보디가드는 업무를 시작하기 전에 업무와 관련된 모든 문제를 다루는 테스트를 받습니다. 전체 오리엔테이션 및 테스트 과정을 성공적으로 통과한 보디가드는 업무를 시작합니다.",
+    },
+    employee: {
+      title: "직원 성과 감사",
+      content: `모든 직원과 보디가드를 검사하는 검사팀이 있습니다. 이러한 감사는 서비스 품질과 향후 고객 만족도를 높이기 위한 것입니다.`,
+    },
+    risk: {
+      title: "위험 평가",
+      content: `임무를 시작하기 전에 특별팀이 보디가드 서비스가 수행될 구역으로 가서 임무를 수행할 구역을 조사하고 위험 구역에 대한 위험 분석을 작성합니다. 본사에서 위험 분석을 평가하여 고객과 공유합니다.`,
+      content2: "보디가드 중 누구도 근무 중에 술을 마시지 않습니다.",
+    },
+    firstAid: {
+      title: "응급 처치 서비스",
+      content: `터키 전역에서 근무하는 모든 보디가드는 응급 처치 교육을 받았으며 바람직하지 않은 사고가 발생할 경우 모든 고객에게 응급 처치 서비스를 제공할 수 있습니다. 또한, 본사에는 사고 현장으로 가서 필요할 경우 손님을 병원으로 데려갈 준비가 된 응급처치 전문가 팀이 있습니다. `,
+    },
+    mercedesVito: {
+      title: "Mercedes Vito Cars İstanbul",
+      content: `고객의 요구에 따라 이스탄불에서 Vito 차량으로 전문적인 보디가드 서비스를 제공합니다.`,
+    },
+    private: {
+      title: "터키 사설 보안 회사",
+      title2: "이스탄불 사설 보안 회사",
+      content: `저희 회사는 터키에서 전문적인 사설 보안 및 보디가드 서비스를 제공할 수 있는 유일한 근접 보호 회사입니다. 저희는 20년 동안 전문가 직원과 함께 매년 수백 개의 회사와 수천 명의 사람들에게 보디가드 서비스를 제공해 왔습니다. 저희는 모든 회사와 사람에게 적합한 보디가드를 보유하고 있습니다. 세계 근접 보호 표준을 준수하고 이 분야의 모든 인증을 받은 저희 회사는 특히 유럽, 중동 및 아시아를 비롯한 세계 여러 지역에서 높은 평가를 받고 있습니다.
+이스탄불과 터키 전역에서 최고의 사설 보안 회사인 저희 회사는 수년간 중단 없이 활동을 이어가고 있습니다. 터키의 할리우드 스타, 대통령, 총리에게 서비스를 제공하는 저희 사설 보안 회사는 터키와 이스탄불의 전문 보안 요원과 함께 터키 전역에 사설 보안 서비스를 제공합니다. 이스탄불의 사설 보안 회사로서 이스탄불 전역을 지배하는 보안 요원과 함께 귀하를 위해 봉사합니다.`,
+    },
+    bodyguardAntalya: {
+      title: "안탈리아의 보디가드 서비스",
+      title2: "안탈리아의 사설 보안",
+      content: `저희는 안탈리아의 손님에게 전문적인 보디가드 서비스를 제공합니다. 저희 회사는 전문가 팀과 함께 안탈리아에서 전문적인 보디가드 서비스를 제공할 수 있는 유일한 회사입니다. 보안은 터키에서 가장 관광 도시 중 하나인 안탈리아의 손님에게 항상 필요했습니다. 도시 구조와 생활에 익숙한 저희 보디가드는 안탈리아에서 마음의 평화를 가지고 귀하를 섬길 것입니다.`,
+    },
+    keywords: {
+      content:
+        "이스탄불의 보디가드 서비스. 터키의 보디가드 서비스. 이스탄불의 근접 보호. 터키의 근접 보호. 이스탄불의 근접 보호 서비스. 이스탄불의 보디가드 회사. 터키의 보디가드 회사. 이스탄불 최고의 보디가드 서비스. 최고의 보디가드 서비스 터키. 보디가드 터키. 보디가드 이스탄불. 보디가드 서비스 안탈리아. 보디가드 안탈리아. 이스탄불의 개인 보안. 이스탄불의 개인 보안 서비스. 이스탄불의 개인 보안 회사. 터키의 개인 보안 회사. 터키의 보디가드 서비스. 터키의 보디가드.",
+    },
+  },
+  greek: {
+    bodyguardTitle: {
+      title: "Υπηρεσίες Σωματοφυλάκων στην Τουρκία",
+      title2: "Υπηρεσίες Σωματοφυλάκων στην Κωνσταντινούπολη",
+      content: `Κλειστή Προστασία Κωνσταντινούπολη
+
+Παρέχουμε υπηρεσίες σωματοφύλακα στους επισκέπτες μας από όλο τον κόσμο εδώ και 20 χρόνια στην Κωνσταντινούπολη και σε όλη την Τουρκία. Αυτήν τη στιγμή παρέχουμε υπηρεσίες σωματοφύλακα σε εκατοντάδες εταιρείες στην Τουρκία, ιδιαίτερα στη Nike, την Toyota και την Oppo. Η ασφάλεια των ποδοσφαιριστών και όλων των ανώτερων αξιωματούχων διασφαλίστηκε από την εταιρεία μας στον τελικό του Champions League που έγινε στην Τουρκία το 2023. Επιπλέον, ο πρώην καγκελάριος της Γερμανίας Gerhard Schröder και ο Γάλλος πρόεδρος Jacques Chirac είναι μεταξύ των ανθρώπων που παρείχαμε στο παρελθόν υπηρεσίες προστασίας να. . 
+Οι φρουροί μας είναι επαγγελματίες στον τομέα τους. Είναι εκπαιδευμένοι να παράγουν γρήγορες λύσεις και να αναλαμβάνουν δράση ακόμα και σε έκτακτες καταστάσεις και συνθήκες. Το επίκεντρο είναι η προστασία του επισκέπτη χωρίς κανένα πρόβλημα υπό οποιεσδήποτε συνθήκες.`,
+    },
+    bodyguard: {
+      title: "Εταιρεία σωματοφύλακα στην Τουρκία",
+      title2: "Εταιρεία σωματοφύλακα στην Κωνσταντινούπολη",
+      content: `Επί του παρόντος, εκτός από τους προσωπικούς μας σωματοφύλακες, εξυπηρετούμε σχεδόν 400 εταιρείες σε όλη την Τουρκία με το προσωπικό μας σχεδόν 3000. Οι χώροι όπου παρέχουμε υπηρεσίες σωματοφυλακής και ιδιωτικής ασφάλειας περιλαμβάνουν εκμεταλλεύσεις, εργοστάσια παραγωγής ηλεκτρικής ενέργειας, εργοστάσια, καταστήματα, αεροδρόμια, στάδια, κατοικίες, βίλες, χώρους συναντήσεων και άτομα που αισθάνονται ότι απειλούνται.
+Η εταιρεία μας παρέχει επίσης υπηρεσία Bodyguard με πολυτελή οχήματα στην Τουρκία.`,
+    },
+    armed: {
+      title: "Ένοπλος σωματοφύλακας Τουρκία",
+      title2: "Ένοπλος σωματοφύλακας Κωνσταντινούπολη",
+      content: `Όλοι οι ένοπλοι σωματοφύλακές μας αποτελούνται από μέλη της Αστυνομίας και ειδικών δυνάμεων που είναι επαγγελματίες στη χρήση όπλων.  Σε κάθε έκτακτη κατάσταση και κατάσταση, οι σωματοφύλακές μας επιδεικνύουν τις αστυνομικές τους ταυτότητες και επιλύουν τα περιστατικά σε συντομότερο χρόνο.`,
+    },
+    unarmed: {
+      title: "Άοπλος σωματοφύλακας Τουρκία",
+      title2: "Άοπλος σωματοφύλακας Κωνσταντινούπολη",
+      content: `Οι άοπλοι σωματοφύλακές μας
+αποτελούνται από άτομα που έχουν λάβει στενή αμυντική εκπαίδευση και έχουν ισχυρή σωματική διάπλαση. Έχουν όλες τις δεξιότητες και τις ικανότητες που απαιτούνται για να προστατεύουν τους επισκέπτες σε ανεπιθύμητες καταστάσεις.`,
+      content2:
+        "Υπηρεσία σωματοφύλακα Κωνσταντινούπολης Κώδικας δεοντολογίας και πολιτική επιχειρηματικής δεοντολογίας Όλοι οι σωματοφύλακές μας υποβάλλονται σε εκπαίδευση προσανατολισμού με 3 διαφορετικά άτομα στα κεντρικά γραφεία της εταιρείας μας πριν ξεκινήσουν τα καθήκοντά τους. Υποβάλλουμε όλους τους σωματοφύλακές μας που έχουν περάσει επιτυχώς την εκπαίδευση προσανατολισμού σε ένα τεστ που καλύπτει όλα τα θέματα που σχετίζονται με τα καθήκοντά τους προτού αρχίσουν τα καθήκοντά τους. Οι σωματοφύλακες που περνούν με επιτυχία όλη τη διαδικασία προσανατολισμού και δοκιμών ξεκινούν τα καθήκοντά τους.",
+    },
+    employee: {
+      title: "Έλεγχος απόδοσης εργαζομένων",
+      content: `Έχουμε μια ομάδα επιθεώρησης που επιθεωρεί όλο το προσωπικό και τους σωματοφύλακες. Αυτοί οι έλεγχοι αποσκοπούν στην αύξηση της ποιότητας των υπηρεσιών και της μελλοντικής ικανοποίησης των πελατών.`,
+    },
+    risk: {
+      title: "Εκτίμηση κινδύνου",
+      content: `Πριν την αποστολή, οι ειδικές μας ομάδες πηγαίνουν στους χώρους όπου θα εκτελεστεί η υπηρεσία σωματοφύλακα, εξετάζουν την περιοχή όπου θα εκτελεστεί η αποστολή και δημιουργούν ανάλυση κινδύνου για την περιοχή κινδύνου. Αξιολογούμε τις αναλύσεις κινδύνου σας στα κεντρικά μας γραφεία και τις μοιραζόμαστε με τους πελάτες μας.`,
+      content2:
+        "Κανένας από τους σωματοφύλακές μας δεν καταναλώνει αλκοόλ εν ώρα υπηρεσίας.",
+    },
+    firstAid: {
+      title: "Υπηρεσία πρώτων βοηθειών",
+      content: `Όλοι οι Σωματοφύλακές μας που υπηρετούν σε όλη την Τουρκία έχουν λάβει εκπαίδευση πρώτων βοηθειών και μπορούν να παρέχουν υπηρεσίες πρώτων βοηθειών σε όλους τους επισκέπτες μας σε περίπτωση οποιουδήποτε ανεπιθύμητου περιστατικού. Επιπλέον, διαθέτουμε ομάδα ειδικών πρώτων βοηθειών στα κεντρικά γραφεία της εταιρείας μας που είναι έτοιμοι να μεταβούν στον τόπο του συμβάντος και να μεταφέρουν τον επισκέπτη στο νοσοκομείο όταν χρειαστεί.`,
+    },
+    mercedesVito: {
+      title: "Mercedes Vito Cars İstanbul",
+      content: `Σύμφωνα με τις απαιτήσεις των πελατών μας, παρέχουμε επαγγελματική υπηρεσία σωματοφύλακα με τα οχήματά μας Vito στην Κωνσταντινούπολη.`,
+    },
+    private: {
+      title: "Ιδιωτική εταιρεία ασφαλείας Τουρκία",
+      title2: "ιδιωτική εταιρεία ασφαλείας Κωνσταντινούπολη",
+      content: `Η εταιρεία μας είναι η μόνη εταιρεία στενής προστασίας στην Τουρκία που μπορεί να παρέχει επαγγελματικές υπηρεσίες ιδιωτικής ασφάλειας και σωματοφύλακα. Παρέχουμε υπηρεσίες σωματοφύλακα σε εκατοντάδες εταιρείες και χιλιάδες ανθρώπους κάθε χρόνο εδώ και 20 χρόνια με το εξειδικευμένο προσωπικό μας. Διαθέτουμε σωματοφύλακες κατάλληλους για κάθε εταιρεία και άτομο. Η εταιρεία μας, η οποία συμμορφώνεται με τα παγκόσμια πρότυπα στενής προστασίας και διαθέτει όλα τα πιστοποιητικά σε αυτόν τον τομέα, είναι ιδιαίτερα αναγνωρισμένη σε πολλά μέρη του κόσμου, ειδικά στην Ευρώπη, τη Μέση Ανατολή και την Ασία.
+Η εταιρεία μας, που είναι η καλύτερη ιδιωτική εταιρεία ασφαλείας στην Κωνσταντινούπολη και σε όλη την Τουρκία, συνεχίζει τις δραστηριότητές της εδώ και χρόνια χωρίς διακοπή. Η ιδιωτική μας εταιρεία ασφαλείας, η οποία παρέχει υπηρεσίες σε αστέρες, προέδρους και πρωθυπουργούς του Χόλιγουντ στην Τουρκία, παρέχει ιδιωτικές υπηρεσίες ασφαλείας σε όλα τα μέρη της Τουρκίας με επαγγελματίες αξιωματικούς ασφαλείας στην Τουρκία και την Κωνσταντινούπολη. Ως ιδιωτική εταιρεία ασφαλείας στην Κωνσταντινούπολη, είμαστε στη διάθεσή σας με τους αξιωματικούς ασφαλείας μας που κυριαρχούν σε όλα τα μέρη της Κωνσταντινούπολης.`,
+    },
+    bodyguardAntalya: {
+      title: "Υπηρεσίες σωματοφύλακα στην Αττάλεια",
+      title2: "Ιδιωτική ασφάλεια στην Αττάλεια",
+      content: `Παρέχουμε επαγγελματική υπηρεσία σωματοφύλακα στους επισκέπτες μας στην Αττάλεια. Η εταιρεία μας είναι η μόνη εταιρεία που μπορεί να παρέχει επαγγελματική υπηρεσία σωματοφύλακα στην Αττάλεια με τις ομάδες ειδικών μας. Η ασφάλεια ήταν πάντα μια ανάγκη για τους επισκέπτες στην Αττάλεια, μια από τις πιο τουριστικές πόλεις της Τουρκίας. Οι σωματοφύλακές μας, που είναι εξοικειωμένοι με τη δομή και τη ζωή της πόλης, θα σας εξυπηρετήσουν στην Αττάλεια με ηρεμία.`,
+    },
+    keywords: {
+      content:
+        " Υπηρεσία Σωματοφύλακα στην Κωνσταντινούπολη. Υπηρεσία Σωματοφύλακα στην Τουρκία. Στενή προστασία Κωνσταντινούπολη. Γαλοπούλα κλειστής προστασίας. Υπηρεσία κλειστής προστασίας Κωνσταντινούπολη. Εταιρεία Σωματοφυλάκων Κωνσταντινούπολη. Εταιρεία σωματοφύλακα Τουρκία. Η καλύτερη υπηρεσία σωματοφύλακα στην Κωνσταντινούπολη. Η καλύτερη υπηρεσία σωματοφύλακα της Τουρκίας. Σωματοφύλακας Τουρκία. Σωματοφύλακας Κωνσταντινούπολη. Υπηρεσία σωματοφύλακα Αττάλεια. Σωματοφύλακας Αττάλεια. ιδιωτική ασφάλεια στην Κωνσταντινούπολη. ιδιωτική υπηρεσία ασφαλείας στην Κωνσταντινούπολη. ιδιωτική εταιρεία ασφαλείας Κωνσταντινούπολη. ιδιωτική εταιρεία ασφαλείας Τουρκία. Υπηρεσία σωματοφύλακα στην Τουρκία. Σωματοφύλακας Türkiye.",
+    },
+  },
+  japon: {
+    bodyguardTitle: {
+      title: "トルコのボディーガードサービス",
+      title2: "イスタンブールのボディーガードサービス",
+      content: `クローズプロテクションイスタンブール 当社は、イスタンブールとトルコ全土で20年間、世界中のお客様にボディーガードサービスを提供してきました。現在、トルコの何百もの企業、特にナイキ、トヨタ、オッポにボディーガードサービスを提供しています。2023年にトルコで行われたチャンピオンズリーグ決勝戦では、サッカー選手とすべての上級役員の安全を当社が確保しました。さらに、ドイツの元首相ゲアハルト・シュレーダーやフランスの大統領ジャック・シラクも、当社がこれまでに保護サービスを提供した人々です。
+当社の警備員は、それぞれの分野のプロフェッショナルです。彼らは、異常な状況や条件でも迅速な解決策を導き、行動を起こすように訓練されています。焦点は、あらゆる状況下で問題なくお客様を保護することです。`,
+    },
+    bodyguard: {
+      title: "トルコのボディーガード会社",
+      title2: "イスタンブールのボディーガード会社",
+      content: `現在、当社の個人ボディーガードに加えて、約3,000人の人員でトルコ全土の約400の企業にサービスを提供しています。当社がボディーガードおよび民間警備サービスを提供する場所には、ホールディングス、発電所、工場、店舗、空港、スタジアム、住宅、別荘、集会所、脅威を感じている人々が含まれます。
+当社はトルコで高級車によるボディーガード サービスも提供しています。`,
+    },
+    armed: {
+      title: "武装ボディーガード トルコ",
+      title2: "武装ボディーガード イスタンブール",
+      content: `当社の武装ボディーガードはすべて、武器の使用に長けた警察および特殊部隊のメンバーで構成されています。いかなる異常な状況や状況でも、当社のボディーガードは警察の身分証明書を提示し、より短時間で事件を解決します。`,
+    },
+    unarmed: {
+      title: "非武装ボディーガード トルコ",
+      title2: "非武装ボディーガード イスタンブール",
+      content: `当社の非武装ボディーガードは、厳重な防衛訓練を受け、強靭な体格を持つ人々で構成されています。彼らは、望ましくない状況でゲストを保護するために必要なすべてのスキルと能力を備えています。`,
+      content2:
+        "イスタンブール ボディーガード サービス 行動規範およびビジネス倫理方針 当社のボディーガードはすべて、任務を開始する前に、当社本社で 3 人の異なる人物によるオリエンテーション トレーニングを受けます。オリエンテーション トレーニングに合格したすべてのボディーガードは、任務を開始する前に、任務に関連するすべての問題を網羅したテストを受けます。オリエンテーションとテストの全プロセスに合格したボディーガードが任務を開始します。",
+    },
+    employee: {
+      title: "従業員パフォーマンス監査",
+      content: `当社には、すべての従業員とボディーガードを検査する検査チームがあります。これらの監査は、サービス品質と将来の顧客満足度の向上を目的としています。`,
+    },
+    risk: {
+      title: "リスク評価",
+      content: `ミッションの前に、当社の特別チームがボディーガードサービスが実行されるエリアに行き、ミッションが実行されるエリアを調査し、リスクエリアのリスク分析を作成します。当社は本社でお客様のリスク分析を評価し、それをお客様と共有します。`,
+      content2: "当社のボディーガードは、勤務中にアルコールを摂取しません。",
+    },
+    firstAid: {
+      title: "応急処置サービス",
+      content: `トルコ全土で勤務するすべてのボディーガードは応急処置のトレーニングを受けており、望ましくない事件が発生した場合にすべてのお客様に応急処置サービスを提供できます。さらに、当社の本社には応急処置の専門家チームがおり、必要に応じて事件現場に出向き、お客様を病院に搬送する準備ができています。`,
+    },
+    mercedesVito: {
+      title: "メルセデス ヴィトー カーズ イスタンブール",
+      content: `お客様のご要望に応じて、イスタンブールでヴィトー車両を使用したプロのボディーガードサービスを提供しています。`,
+    },
+    private: {
+      title: "トルコの民間警備会社",
+      title2: "イスタンブールの民間警備会社",
+      content: `当社はトルコで唯一、プロの民間警備およびボディーガードサービスを提供できる身辺警護会社です。当社は、熟練したスタッフを擁し、20年間にわたり毎年何百もの企業と何千人もの人々にボディーガードサービスを提供してきました。当社には、あらゆる企業や個人に適したボディーガードがいます。当社は、世界の身辺警護基準に準拠し、この分野のすべての証明書を取得しており、特にヨーロッパ、中東、アジアなど、世界の多くの地域で高い評価を受けています。
+
+イスタンブールおよびトルコ全土で最高の民間警備会社である当社は、長年にわたって中断することなく活動を続けています。トルコのハリウッドスター、大統領、首相にサービスを提供している当社の民間警備会社は、トルコとイスタンブールのプロの警備員を擁し、トルコ全土に民間警備サービスを提供しています。イスタンブールの民間警備会社として、当社はイスタンブール全土を支配する警備員を擁し、お客様にサービスを提供しています。`,
+    },
+    bodyguardAntalya: {
+      title: "Bアンタルヤのボディーガード サービス",
+      title2: "アンタルヤのプライベート セキュリティ",
+      content: `アンタルヤのお客様にプロのボディーガード サービスを提供しています。当社は、専門家チームを擁するアンタルヤでプロのボディーガード サービスを提供できる唯一の会社です。トルコで最も観光客の多い都市の 1 つであるアンタルヤでは、常にセキュリティがお客様にとって必要となっています。都市の構造と生活に精通した当社のボディーガードが、アンタルヤで安心してお客様にサービスを提供します。`,
+    },
+    keywords: {
+      content:
+        "イスタンブールのボディーガード サービス。トルコのボディーガード サービス。イスタンブールの身辺警護。トルコの身辺警護。イスタンブールの身辺警護サービス。イスタンブールのボディーガード会社。トルコのボディーガード会社。イスタンブールで最高のボディーガード サービス。トルコで最高のボディーガード サービス。トルコのボディーガード。イスタンブールのボディーガード。アンタルヤのボディーガード サービス。アンタルヤのボディーガード。イスタンブールの民間警備。イスタンブールの民間警備サービス。イスタンブールの民間警備会社。トルコの民間警備会社。トルコのボディーガードサービス。トルコのボディーガード。",
+    },
+  },
+  urdu: {
+    bodyguardTitle: {
+      title: "ترکی میں باڈی گارڈ کی خدمات",
+      title2: "استنبول میں باڈی گارڈ کی خدمات",
+      content: `بند تحفظ استنبول ہم استنبول اور پورے ترکی میں 20 سالوں سے پوری دنیا سے اپنے مہمانوں کو باڈی گارڈ کی خدمات فراہم کر رہے ہیں۔ ہم فی الحال ترکی میں سینکڑوں کمپنیوں کو باڈی گارڈ کی خدمات فراہم کرتے ہیں، خاص طور پر نائکی، ٹویوٹا اور اوپو۔ 2023 میں ترکی میں کھیلے گئے چیمپیئنز لیگ کے فائنل میچ میں ہماری کمپنی کی جانب سے فٹ بال کے کھلاڑیوں اور تمام سینئر آفیشلز کی سیکیورٹی کو یقینی بنایا گیا تھا۔ اس کے علاوہ سابق جرمن چانسلر گیرہارڈ شروڈر اور فرانسیسی صدر جیک شیراک بھی ان لوگوں میں شامل ہیں جو ہم نے پہلے تحفظ کی خدمات فراہم کی ہیں۔ کو . ہمارے محافظ اپنے شعبوں میں پیشہ ور ہیں۔ انہیں فوری حل پیدا کرنے اور غیر معمولی حالات اور حالات میں بھی کارروائی کرنے کی تربیت دی جاتی ہے۔ تمام حالات میں بغیر کسی پریشانی کے مہمان کی حفاظت پر توجہ مرکوز کرنا ہے۔`,
+    },
+    bodyguard: {
+      title: "ترکی میں باڈی گارڈ کمپنی",
+      title2: "استنبول میں باڈی گارڈ کمپنی",
+      content: `فی الحال، اپنے ذاتی محافظوں کے علاوہ، ہم اپنے تقریباً 3000 اہلکاروں کے ساتھ ترکی بھر میں تقریباً 400 کمپنیوں کی خدمت کر رہے ہیں۔ وہ جگہیں جہاں ہم باڈی گارڈ اور پرائیویٹ سیکیورٹی سروسز فراہم کرتے ہیں ان میں ہولڈنگز، پاور پلانٹس، فیکٹریاں، اسٹورز، ہوائی اڈے، اسٹیڈیم، رہائش گاہیں، ولاز، میٹنگ کی جگہیں اور وہ لوگ جو خطرہ محسوس کرتے ہیں۔
+ہماری کمپنی ترکی میں لگژری گاڑیوں کے ساتھ باڈی گارڈ سروس بھی فراہم کرتی ہے۔`,
+    },
+    armed: {
+      title: "مسلح محافظ ترکی",
+      title2: "مسلح محافظ استنبول",
+      content: `ہمارے تمام مسلح محافظ پولیس اور اسپیشل فورسز کے ارکان پر مشتمل ہیں جو ہتھیار استعمال کرنے میں ماہر ہیں۔  کسی بھی غیر معمولی صورتحال اور حالت میں، ہمارے محافظ اپنی پولیس آئی ڈی دکھاتے ہیں اور واقعات کو کم وقت میں حل کرتے ہیں۔`,
+    },
+    unarmed: {
+      title: "غیر مسلح محافظ ترکی",
+      title2: "غیر مسلح محافظ استنبول",
+      content: `ہمارے غیر مسلح محافظ
+ان لوگوں پر مشتمل ہے جنہوں نے قریبی دفاعی تربیت حاصل کی ہے اور ان کا جسم مضبوط ہے۔ ان کے پاس ناپسندیدہ حالات میں مہمانوں کی حفاظت کے لیے درکار تمام مہارتیں اور صلاحیتیں ہیں۔`,
+      content2:
+        "استنبول باڈی گارڈ سروس ضابطہ اخلاق اور کاروباری اخلاقیات کی پالیسی ہمارے تمام باڈی گارڈز اپنی ڈیوٹی شروع کرنے سے پہلے ہماری کمپنی کے ہیڈ کوارٹر میں 3 مختلف لوگوں کے ساتھ واقفیت کی تربیت سے گزرتے ہیں۔ ہم اپنے تمام باڈی گارڈز کو جنہوں نے واقفیت کی تربیت کامیابی سے پاس کر لی ہے ایک ایسے امتحان سے مشروط کیا ہے جس میں ان کے فرائض سے متعلق تمام مسائل کا احاطہ کیا گیا ہے اس سے پہلے کہ وہ اپنے فرائض شروع کر سکیں۔ باڈی گارڈز جو پوری واقفیت اور جانچ کے عمل کو کامیابی کے ساتھ پاس کرتے ہیں اپنے فرائض شروع کرتے ہیں۔",
+    },
+    employee: {
+      title: "ملازمین کی کارکردگی کا آڈٹ",
+      content: `ہمارے پاس ایک معائنہ ٹیم ہے جو تمام اہلکاروں اور محافظوں کا معائنہ کرتی ہے۔ ان آڈٹس کا مقصد خدمت کے معیار اور مستقبل میں صارفین کی اطمینان کو بڑھانا ہے۔ `,
+    },
+    risk: {
+      title: "خطرے کی تشخیص",
+      content: `مشن سے پہلے، ہماری خصوصی ٹیمیں ان علاقوں میں جاتی ہیں جہاں باڈی گارڈ کی خدمات انجام دی جائیں گی، اس علاقے کا جائزہ لیں جہاں مشن انجام دیا جائے گا اور خطرے کے علاقے کے لیے ایک خطرے کا تجزیہ تیار کریں۔ ہم اپنے ہیڈ کوارٹر میں آپ کے خطرے کے تجزیوں کا جائزہ لیتے ہیں اور انہیں اپنے صارفین کے ساتھ شیئر کرتے ہیں۔`,
+      content2: "ہمارا کوئی محافظ ڈیوٹی کے دوران شراب نہیں پیتا۔",
+    },
+    firstAid: {
+      title: "ابتدائی طبی امداد کی خدمت",
+      content: `ترکی بھر میں خدمات انجام دینے والے ہمارے تمام باڈی گارڈز نے ابتدائی طبی امداد کی تربیت حاصل کی ہے اور وہ کسی بھی ناخوشگوار واقعے کی صورت میں ہمارے تمام مہمانوں کو ابتدائی طبی امداد فراہم کر سکتے ہیں۔ اس کے علاوہ، ہماری کمپنی کے ہیڈ کوارٹر میں ابتدائی طبی امداد کے ماہرین کی ایک ٹیم موجود ہے جو جائے وقوعہ پر جانے اور ضرورت پڑنے پر مہمان کو ہسپتال لے جانے کے لیے تیار ہے۔`,
+    },
+    mercedesVito: {
+      title: "مرسڈیز وٹو کاریں استنبول",
+      content: `اپنے صارفین کے مطالبات کے مطابق، ہم استنبول میں اپنی Vito گاڑیوں کے ساتھ پیشہ ور باڈی گارڈ سروس فراہم کرتے ہیں۔`,
+    },
+    private: {
+      title: "نجی سیکورٹی کمپنی ترکی",
+      title2: "نجی سیکورٹی کمپنی استنبول",
+      content: `ہماری کمپنی ترکی میں واحد قریبی حفاظتی کمپنی ہے جو پیشہ ورانہ نجی سیکورٹی اور باڈی گارڈ کی خدمات فراہم کر سکتی ہے۔ ہم اپنے ماہر عملے کے ساتھ 20 سالوں سے ہر سال سینکڑوں کمپنیوں اور ہزاروں لوگوں کو باڈی گارڈ کی خدمات فراہم کر رہے ہیں۔ ہمارے پاس ہر کمپنی اور شخص کے لیے موزوں باڈی گارڈز ہیں۔ ہماری کمپنی، جو عالمی قریبی تحفظ کے معیارات کی تعمیل کرتی ہے اور اس شعبے میں تمام سرٹیفکیٹ رکھتی ہے، دنیا کے بہت سے حصوں میں خاص طور پر یورپ، مشرق وسطیٰ اور ایشیا میں بہت زیادہ پہچانی جاتی ہے۔
+ہماری کمپنی، جو کہ استنبول اور پورے ترکی کی بہترین نجی سیکیورٹی کمپنی ہے، برسوں سے اپنی سرگرمیاں بغیر کسی رکاوٹ کے جاری رکھے ہوئے ہے۔ ہماری نجی سیکیورٹی کمپنی، جو ترکی میں ہالی ووڈ کے ستاروں، صدور اور وزرائے اعظم کو خدمات فراہم کرتی ہے، ترکی اور استنبول میں پیشہ ور سیکیورٹی افسران کے ساتھ ترکی کے تمام حصوں میں نجی سیکیورٹی خدمات فراہم کرتی ہے۔ استنبول میں ایک نجی سیکیورٹی کمپنی کے طور پر، ہم اپنے سیکیورٹی افسران کے ساتھ آپ کی خدمت میں حاضر ہیں جو استنبول کے تمام حصوں پر غلبہ رکھتے ہیں۔`,
+    },
+    bodyguardAntalya: {
+      title: "انطالیہ میں باڈی گارڈ کی خدمات",
+      title2: "انطالیہ میں نجی سیکیورٹی",
+      content: `ہم انطالیہ میں اپنے مہمانوں کو پیشہ ورانہ محافظ خدمات فراہم کرتے ہیں۔ ہماری کمپنی واحد کمپنی ہے جو ہماری ماہر ٹیموں کے ساتھ انطالیہ میں پیشہ ور باڈی گارڈ سروس فراہم کر سکتی ہے۔ ترکی کے سب سے زیادہ سیاحتی شہروں میں سے ایک، انطالیہ میں سیکورٹی ہمیشہ مہمانوں کی ضرورت بن گئی ہے۔ ہمارے محافظ، جو شہر کی ساخت اور زندگی سے واقف ہیں، انطالیہ میں ذہنی سکون کے ساتھ آپ کی خدمت کریں گے۔`,
+    },
+    keywords: {
+      content:
+        " استنبول میں باڈی گارڈ سروس۔ ترکی میں باڈی گارڈ سروس۔ بند تحفظ استنبول۔ بند تحفظ ترکی. بند حفاظتی خدمت استنبول۔ باڈی گارڈ کمپنی استنبول۔ باڈی گارڈ کمپنی ترکی۔ استنبول میں باڈی گارڈ کی بہترین سروس۔ بہترین باڈی گارڈ سروس ترکی۔ باڈی گارڈ ترکی۔ باڈی گارڈ استنبول۔ باڈی گارڈ سروس انطالیہ۔ باڈی گارڈ انطالیہ۔ استنبول میں نجی سیکورٹی .نجی سیکورٹی سروس استنبول .نجی سیکورٹی کمپنی استنبول .نجی سیکورٹی کمپنی ترکی .ترکی میں باڈی گارڈ سروس .باڈی گارڈ ترکی",
+    },
+  },
 };

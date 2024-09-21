@@ -101,6 +101,9 @@ export const ServicesContainer = styled.div`
     }
     .keyWords {
       width: 78%;
+      p {
+        font-size: 20px;
+      }
     }
   }
 `;

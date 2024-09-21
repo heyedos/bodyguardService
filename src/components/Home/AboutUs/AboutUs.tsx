@@ -29,6 +29,20 @@ export const AboutUs = ({ aboutUsRef, selectedLanguage }: AboutUsProps) => {
       setLang(servicesText.italian);
     } else if (selectedLanguage === "persian") {
       setLang(servicesText.persian);
+    } else if (selectedLanguage === "french") {
+      setLang(servicesText.french);
+    } else if (selectedLanguage === "greece") {
+      setLang(servicesText.greek);
+    } else if (selectedLanguage === "japon") {
+      setLang(servicesText.japon);
+    } else if (selectedLanguage === "korean") {
+      setLang(servicesText.korean);
+    } else if (selectedLanguage === "romanian") {
+      setLang(servicesText.romanian);
+    } else if (selectedLanguage === "pakistan") {
+      setLang(servicesText.urdu);
+    } else if (selectedLanguage === "chinese") {
+      setLang(servicesText.chinese);
     }
   }, [selectedLanguage]);
   return (

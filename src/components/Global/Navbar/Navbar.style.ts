@@ -38,6 +38,21 @@ export const NavbarContainer = styled.div`
       }
     }
   }
+  .wpIcon {
+    display: flex;
+    position: relative;
+    align-items: center;
+    img {
+      width: 25px;
+      cursor: pointer;
+    }
+  }
+  .popupNumber {
+    color: white;
+    position: absolute;
+    top: 50px;
+    width: 125px;
+  }
 
   .list-container {
     //background-color: orange;
@@ -79,12 +94,12 @@ export const NavbarContainer = styled.div`
   .flag-container {
     //background-color: blue;
     max-height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+    padding-top: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr;
     img {
-      height: 40%;
+      width: 45px;
       border-radius: 100%;
       border: 2px solid transparent;
       transition: 0.5s ease-in-out;
