@@ -16,6 +16,7 @@ export const PageContainer = () => {
   const navbarRef = useRef<HTMLDivElement>(null);
   const aboutUsRef = useRef<HTMLDivElement>(null);
   const servicesRef = useRef<HTMLDivElement>(null);
+  const referencesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (scrollY >= 120) setIsAtTop(false);
@@ -48,6 +49,13 @@ export const PageContainer = () => {
     } else if (itemName === "services" && servicesRef && servicesRef.current) {
       servicesRef.current.scrollIntoView({ behavior: "smooth" });
       console.log("service");
+    } else if (
+      itemName === "references" &&
+      referencesRef &&
+      referencesRef.current
+    ) {
+      referencesRef.current.scrollIntoView({ behavior: "smooth" });
+      console.log("references");
     }
   };
 
@@ -68,7 +76,9 @@ export const PageContainer = () => {
           selectedLanguage,
         }}
       />
-      <Outlet context={{ aboutUsRef, servicesRef, selectedLanguage }} />
+      <Outlet
+        context={{ aboutUsRef, servicesRef, selectedLanguage, referencesRef }}
+      />
       <button className="scroll-to-top" onClick={scrollToTop}>
         <SlArrowUp />
       </button>

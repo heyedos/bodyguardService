@@ -51,18 +51,21 @@ export const Navbar = ({
               <h3 onClick={() => scrollToItem("services")}>Services</h3>
             </li>
             <li>
-              <h3>References</h3>
+              <h3 onClick={() => scrollToItem("references")}>References</h3>
             </li>
             <li className="wpIcon">
               <h3>Contact</h3>
-              <img
-                src={wpIcon}
-                alt="whatshapp icon"
-                onClick={() => {
-                  setNumberOpen((e) => !e);
-                }}
-              />
-              {numberOpen && <p className="popupNumber">+90 543 881 8113 </p>}
+              <a href="https://wa.me/905438818113">
+                <img
+                  src={wpIcon}
+                  alt="whatshapp icon"
+                  /* onClick={() => {
+                    setNumberOpen((e) => !e);
+                  }} */
+                />
+              </a>
+
+              {/* {numberOpen && <p className="popupNumber">+90 543 881 8113</p>} */}
             </li>
           </ul>
         </div>
