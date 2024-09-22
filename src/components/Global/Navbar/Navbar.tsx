@@ -22,7 +22,7 @@ export const Navbar = ({
   setSelectedLanguage,
   selectedLanguage,
 }: NavbarProps) => {
-  const [numberOpen, setNumberOpen] = useState<boolean>(false);
+  /* const [numberOpen, setNumberOpen] = useState<boolean>(false); */
   return (
     <NavbarContainer ref={navbarRef} className={`navbar`}>
       <div className="logo-container">

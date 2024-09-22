@@ -1,7 +1,7 @@
 //Styling
 import { ReferencesContainer } from "./References.style";
 //Images
-
+import { RefImages } from "./ReferencesImages";
 import { RefObject, useEffect, useState } from "react";
 
 interface referencesProps {
@@ -13,10 +13,14 @@ export const References = ({ referencesRef }: referencesProps) => {
     <ReferencesContainer ref={referencesRef}>
       <div className="inner-container">
         <div className="title-container">
-          <h1>sa</h1>
+          <h1>References</h1>
         </div>
         <div className="bottom-container">
-          <div className="text-button-container"></div>
+          <div className="images-container">
+            {RefImages.map((key) => (
+              <img src={key} alt={key} className="refImages" />
+            ))}
+          </div>
         </div>
       </div>
     </ReferencesContainer>
