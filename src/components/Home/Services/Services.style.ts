@@ -99,6 +99,13 @@ export const ServicesContainer = styled.div`
         }
       }
     }
+    .ImgBoth {
+      width: 100%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      gap: 1em;
+    }
     .keyWords {
       width: 78%;
       p {

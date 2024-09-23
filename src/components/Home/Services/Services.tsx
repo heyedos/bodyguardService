@@ -3,8 +3,8 @@ import { ServicesContainer } from "./Services.style";
 //Packages
 import { RefObject, useEffect, useState } from "react";
 //Images
-import { images } from "./ServicesImages";
-
+import leftImg from "../../../assets/services/sideImg3.jpg";
+import rightImg from "../../../assets/services/sideImg4.jpg";
 import { servicesText } from "./Languages";
 
 interface ServicesProps {
@@ -52,24 +52,24 @@ export const Services = ({ servicesRef, selectedLanguage }: ServicesProps) => {
     <ServicesContainer ref={servicesRef}>
       <div className="inner-container">
         <div className="box-1">
-          {/* <div className="image-container">
-            <img src={images.Image1} alt="" />
-          </div> */}
           <div className="text-container">
             <h1>{lang.bodyguard.title}</h1>
             <h1>{lang.bodyguard.title2}</h1>
             <p>{lang.bodyguard.content}</p>
           </div>
         </div>
-        <div className="box-2">
+        <div className="box-2 ImgBoth">
+          <div className="leftImg">
+            <img src={leftImg} alt="" />
+          </div>
           <div className="text-container">
             <h1>{lang.armed.title}</h1>
             <h1>{lang.armed.title2}</h1>
             <p>{lang.armed.content}</p>
           </div>
-          {/* <div className="image-container">
-            <img src={images.Image2} alt="" />
-          </div> */}
+          <div className="rightImg">
+            <img src={rightImg} alt="" />
+          </div>
         </div>
         <div className="box-2">
           <div className="text-container">

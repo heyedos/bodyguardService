@@ -9,8 +9,16 @@ export const AboutUsContainer = styled.div`
   padding-top: 75px;
 
   .inner-container {
-    width: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
 
+    img {
+      height: 400px;
+      width: 300px;
+      object-fit: contain;
+    }
     .title-container {
       margin-top: 0.2em;
       background-color: white;

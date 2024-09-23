@@ -1,7 +1,8 @@
 //Styling
 import { AboutUsContainer } from "./AboutUs.style";
 //Images
-import AboutUsIMage from "../../../assets/about_us/7.jpeg";
+import leftImg from "../../../assets/about_us/sideImg.jpg";
+import rightImg from "../../../assets/about_us/sideImg2.jpg";
 import { RefObject, useEffect, useState } from "react";
 import { servicesText } from "../Services/Languages";
 
@@ -48,20 +49,22 @@ export const AboutUs = ({ aboutUsRef, selectedLanguage }: AboutUsProps) => {
   return (
     <AboutUsContainer ref={aboutUsRef}>
       <div className="inner-container">
-        <div className="title-container">
-          <h1>{lang.bodyguardTitle.title}</h1>
-          <h1>{lang.bodyguardTitle.title2}</h1>
+        <div className="leftImg">
+          <img src={leftImg} alt="" />
         </div>
-        <div className="bottom-container">
-          {/* <div className="image-container">
-                    <img src={AboutUsIMage} />
-                </div> */}
-          <div className="text-button-container">
-            <p>{lang.bodyguardTitle.content}</p>
-            {/* <div className="button-container">
-              <button>Read More</button>
-            </div> */}
+        <div className="mid-container">
+          <div className="title-container">
+            <h1>{lang.bodyguardTitle.title}</h1>
+            <h1>{lang.bodyguardTitle.title2}</h1>
           </div>
+          <div className="bottom-container">
+            <div className="text-button-container">
+              <p>{lang.bodyguardTitle.content}</p>
+            </div>
+          </div>
+        </div>
+        <div className="rightImg">
+          <img src={rightImg} alt="" />
         </div>
       </div>
     </AboutUsContainer>
