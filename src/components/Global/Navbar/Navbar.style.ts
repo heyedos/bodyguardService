@@ -43,7 +43,7 @@ export const NavbarContainer = styled.div`
     position: relative;
     align-items: center;
     img {
-      width: 25px;
+      width: 50px;
       cursor: pointer;
     }
   }

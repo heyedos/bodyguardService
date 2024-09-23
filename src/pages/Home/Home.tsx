@@ -4,6 +4,7 @@ import { HomeContainer } from "./Home.style";
 import { Slider } from "../../components/Home/Slider/Slider";
 import { AboutUs } from "../../components/Home/AboutUs/AboutUs";
 import { Services } from "../../components/Home/Services/Services";
+import { BottomSlider } from "../../components/Home/BottomSlider/Slider";
 import { References } from "../../components/Home/References/References";
 import { RefObject, useEffect, useRef, useState } from "react";
 import { useOutletContext } from "react-router-dom";
@@ -24,6 +25,7 @@ export const Home = () => {
       <Slider />
       <AboutUs {...{ aboutUsRef, selectedLanguage }} />
       <Services {...{ servicesRef, selectedLanguage }} />
+      <BottomSlider />
       <References {...{ referencesRef }} />
     </HomeContainer>
   );

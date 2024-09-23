@@ -17,6 +17,7 @@ export const PageContainer = () => {
   const aboutUsRef = useRef<HTMLDivElement>(null);
   const servicesRef = useRef<HTMLDivElement>(null);
   const referencesRef = useRef<HTMLDivElement>(null);
+  const footerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (scrollY >= 120) setIsAtTop(false);
@@ -56,6 +57,9 @@ export const PageContainer = () => {
     ) {
       referencesRef.current.scrollIntoView({ behavior: "smooth" });
       console.log("references");
+    } else if (itemName === "footer" && footerRef && footerRef.current) {
+      footerRef.current.scrollIntoView({ behavior: "smooth" });
+      console.log("footer");
     }
   };
 
@@ -82,7 +86,7 @@ export const PageContainer = () => {
       <button className="scroll-to-top" onClick={scrollToTop}>
         <SlArrowUp />
       </button>
-      <Footer />
+      <Footer {...{ footerRef }} />
     </PageContainerDiv>
   );
 };

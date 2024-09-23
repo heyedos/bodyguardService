@@ -6,7 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 
 import { Photos } from "./SliderPhotos";
 
-export const Slider = () => {
+export const BottomSlider = () => {
   if (Photos)
     return (
       <SliderContainer>

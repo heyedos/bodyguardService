@@ -54,7 +54,7 @@ export const Navbar = ({
               <h3 onClick={() => scrollToItem("references")}>References</h3>
             </li>
             <li className="wpIcon">
-              <h3>Contact</h3>
+              <h3 onClick={() => scrollToItem("footer")}>Contact</h3>
               <a href="https://wa.me/905438818113">
                 <img
                   src={wpIcon}
