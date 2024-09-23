@@ -22,6 +22,10 @@ export const FooterContainer = styled.div`
       p {
         color: white;
         margin-top: 16px;
+        a {
+          color: white;
+          text-decoration: none;
+        }
       }
     }
     .adress {
