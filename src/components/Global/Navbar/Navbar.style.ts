@@ -1,34 +1,36 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
-  height: 120px;
   width: 100%;
   background-color: #080c0f;
-  display: grid;
-  grid-template-columns: 20% 55% 25%;
-
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  height: 130px;
   .logo-container {
     //background-color: red;
-    max-height: 120px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    width: 22em;
+    padding-left: 2em;
+    padding-right: 1em;
 
     .inner-logo-container {
-      height: 100%;
-      width: 80%;
       display: flex;
+      justify-content: center;
+      gap: 0.5em;
       align-items: center;
-      gap: 5%;
 
       img {
-        height: 80%;
+        width: 32%;
       }
 
       .title-container {
         display: flex;
         flex-direction: column;
         white-space: nowrap;
+
         h2 {
           margin: 0;
           color: white;
@@ -40,38 +42,28 @@ export const NavbarContainer = styled.div`
   }
   .wpIcon {
     display: flex;
-    position: relative;
     align-items: center;
-    img {
-      width: 50px;
-      cursor: pointer;
+    gap: 1em;
+    .wpDiv {
+      width: 3em;
+      img {
+        width: 100%;
+        cursor: pointer;
+      }
     }
   }
-  .popupNumber {
-    color: white;
-    position: absolute;
-    top: 50px;
-    width: 125px;
-  }
-
   .list-container {
-    //background-color: orange;
     display: flex;
-    justify-content: center;
-
+    align-items: center;
     .inner-list-container {
-      height: 100%;
-      width: 80%;
       ul {
         list-style: none;
-        padding-inline-start: 0;
-        margin-block-end: 0;
-        margin-block-start: 0;
-        width: 100%;
-        height: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;
+        gap: 2em;
+        padding: 0;
+        margin: 0;
 
         li {
           h3 {
@@ -79,9 +71,7 @@ export const NavbarContainer = styled.div`
             opacity: 50%;
             transition: 0.5s ease-in-out;
             cursor: pointer;
-            border: 15px solid transparent;
             border-radius: 100%;
-
             &:hover {
               opacity: 100%;
             }
@@ -93,13 +83,14 @@ export const NavbarContainer = styled.div`
 
   .flag-container {
     //background-color: blue;
-    max-height: 120px;
-    padding-top: 0.5em;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr 1fr;
+    gap: 0.25em;
+    width: 26.5em;
+    min-width: 300px;
     img {
-      width: 42px;
+      width: 100%;
       border-radius: 100%;
       border: 2px solid transparent;
       transition: 0.5s ease-in-out;
