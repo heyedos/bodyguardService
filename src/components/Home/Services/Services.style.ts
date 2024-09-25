@@ -113,4 +113,12 @@ export const ServicesContainer = styled.div`
       }
     }
   }
+  @media only screen and (max-width: 1000px) {
+    .ImgBoth {
+      flex-direction: column;
+      .text-container {
+        width: 90%;
+      }
+    }
+  }
 `;

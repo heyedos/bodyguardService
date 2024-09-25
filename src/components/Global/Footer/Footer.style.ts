@@ -2,15 +2,18 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   position: relative;
-  z-index: 999;
+  z-index: 100;
   bottom: 0;
   width: 100%;
   margin-top: 200px;
   background-color: gray;
   padding-top: 1em;
   padding-bottom: 1.5em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   .Footer {
-    padding-left: 20em;
+    padding-left: 0em;
     h3 {
       margin: 0;
     }
@@ -34,6 +37,23 @@ export const FooterContainer = styled.div`
       }
       width: 30%;
       color: white;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .Footer {
+      padding-left: 3em;
+    }
+    .footer-container {
+      gap: 3em;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .footer-container {
+      flex-direction: column;
+      gap: 0;
+      .adress {
+        width: 90%;
+      }
     }
   }
 `;

@@ -54,25 +54,14 @@ export const AboutUsContainer = styled.div`
           padding-top: 1em;
           margin: 0;
         }
-
-        /* .button-container {
-                    display: flex;
-                    align-items: center;
-                    button {
-                        background-color: blue;
-                        padding: 15px;
-                        border: none;
-                        color : white;
-                        transition: 0.5s ease-in-out;
-                        cursor: pointer;
-
-                        &:hover {
-                            box-shadow: 0 0 5px 5px aqua;
-                        }
-
-                    }
-                } */
       }
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .inner-container {
+      flex-direction: column;
+      width: 90%;
+      gap: 0;
     }
   }
 `;

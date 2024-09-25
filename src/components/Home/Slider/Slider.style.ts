@@ -36,7 +36,15 @@ export const SliderContainer = styled.div`
       }
     }
   }
+  @media only screen and (max-width: 1000px) {
+    .carousel-root {
+      .carousel {
+        .slider-wrapper {
+          .slider {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 `;
-/* 
-}
- */
