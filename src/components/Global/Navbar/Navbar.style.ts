@@ -12,8 +12,8 @@ export const NavbarContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 22em;
-    padding-left: 2em;
+    width: 27%;
+    padding-left: 1em;
     padding-right: 1em;
 
     .inner-logo-container {
@@ -23,7 +23,7 @@ export const NavbarContainer = styled.div`
       align-items: center;
 
       img {
-        width: 32%;
+        width: 22%;
       }
 
       .title-container {
@@ -44,17 +44,29 @@ export const NavbarContainer = styled.div`
     display: flex;
     align-items: center;
     gap: 1em;
+    position: relative;
+    .arrows {
+      position: absolute;
+      top: 90%;
+    }
     .wpDiv {
-      width: 3em;
+      width: 4em;
       img {
         width: 100%;
         cursor: pointer;
       }
     }
   }
-  .list-container {
+  .rightIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .list-container-2 {
     display: flex;
     align-items: center;
+    width: 48%;
     .inner-list-container {
       ul {
         list-style: none;
@@ -87,8 +99,8 @@ export const NavbarContainer = styled.div`
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr 1fr;
     gap: 0.25em;
-    width: 26.5em;
-    min-width: 300px;
+    width: 25%;
+    max-width: 500px;
     img {
       width: 100%;
       border-radius: 100%;
@@ -103,6 +115,71 @@ export const NavbarContainer = styled.div`
 
     .active {
       border: 2px solid white;
+    }
+  }
+  .arrowIcon {
+    width: 25px;
+  }
+  .close {
+    transform: rotate(180deg);
+  }
+  @media only screen and (max-width: 1000px) {
+    height: 75px;
+    gap: 0;
+    .wpIcon {
+      padding-right: 0.5em;
+      gap: 5px;
+      .wpDiv {
+        width: 2em;
+      }
+    }
+    .logo-container {
+      width: 10%;
+      padding-right: 0;
+      .inner-logo-container {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+        .title-container {
+          width: 0;
+          visibility: hidden;
+        }
+      }
+    }
+    .list-container-2 {
+      display: flex;
+      align-items: center;
+      width: 90%;
+      .inner-list-container {
+        width: 100%;
+        ul {
+          gap: 10px;
+          li {
+            h3 {
+              font-size: 15px;
+              opacity: 100%;
+            }
+          }
+        }
+      }
+    }
+    .flagW {
+      //background-color: blue;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 0.2em;
+      height: 13em;
+      width: 0;
+      position: absolute;
+      top: 4em;
+      right: 3em;
+      img {
+        width: 18px;
+      }
     }
   }
 `;

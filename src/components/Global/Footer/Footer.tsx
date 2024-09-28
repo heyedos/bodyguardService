@@ -13,15 +13,15 @@ export const Footer = ({ footerRef }: footerProps) => {
         <div className="footer-container">
           <div className="contact">
             <p>
-              email:{" "}
+              Email:{" "}
               <a href="mailto:a.s._1905@hotmail.com">a.s._1905@hotmail.com</a>
             </p>
             <p>Phone Number: +90 543 881 8113 </p>
           </div>
           <div className="adress">
             <p>
-              Adress: Atatürk mahallesi hadımköy yolu caddesi 10/13 kıraç
-              esenyurt istanbul
+              Adress: Atatürk Mahallesi Hadımköy Yolu Caddesi 10/13 Kıraç
+              Esenyurt İstanbul
             </p>
           </div>
         </div>

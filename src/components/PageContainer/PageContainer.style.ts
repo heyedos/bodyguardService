@@ -48,4 +48,14 @@ export const PageContainerDiv = styled.div<PageContainerDivProps>`
       font-size: 25px;
     }
   }
+  @media only screen and (max-width: 1000px) {
+    .home {
+      margin-top: 75px;
+    }
+    .scroll-to-top {
+      right: 25px;
+      height: 50px;
+      width: 50px;
+    }
+  }
 `;
