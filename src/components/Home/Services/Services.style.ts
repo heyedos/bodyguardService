@@ -93,6 +93,10 @@ export const ServicesContainer = styled.div`
   @media only screen and (max-width: 1200px) {
     .ImgBoth {
       flex-direction: column;
+      width: 90%;
+      img {
+        width: 100%;
+      }
       .text-container {
         width: 90%;
       }
@@ -100,7 +104,7 @@ export const ServicesContainer = styled.div`
     .box-1 {
       flex-direction: column;
       img {
-        width: 90%;
+        width: 100%;
       }
     }
   }

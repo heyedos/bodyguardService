@@ -76,6 +76,12 @@ export const AboutUsContainer = styled.div`
       flex-direction: column;
       width: 90%;
       gap: 0;
+      .rightImg {
+        padding-top: 20px;
+      }
+      img {
+        width: 100%;
+      }
     }
   }
 `;
