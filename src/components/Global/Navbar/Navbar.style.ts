@@ -7,6 +7,7 @@ export const NavbarContainer = styled.div`
   align-items: center;
   gap: 2em;
   height: 130px;
+  position: relative;
   .logo-container {
     //background-color: red;
     display: flex;
@@ -49,12 +50,8 @@ export const NavbarContainer = styled.div`
       color: white;
       opacity: 50%;
       position: absolute;
-      bottom: -1.5em;
+      bottom: -2em;
       right: 3em;
-    }
-    .arrows {
-      position: absolute;
-      top: 90%;
     }
     .wpDiv {
       width: 4em;
@@ -101,7 +98,6 @@ export const NavbarContainer = styled.div`
   }
 
   .flag-container {
-    //background-color: blue;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -130,6 +126,7 @@ export const NavbarContainer = styled.div`
   .close {
     transform: rotate(180deg);
   }
+
   @media only screen and (max-width: 1000px) {
     height: 75px;
     gap: 0;
@@ -138,6 +135,7 @@ export const NavbarContainer = styled.div`
       gap: 5px;
       p {
         opacity: 100%;
+        bottom: -1.5em;
         right: 2.5em;
       }
       .wpDiv {
@@ -150,11 +148,10 @@ export const NavbarContainer = styled.div`
       .inner-logo-container {
         width: 100%;
         img {
-          width: 100%;
+          width: 80%;
         }
         .title-container {
-          width: 0;
-          visibility: hidden;
+          display: none;
         }
       }
     }
@@ -176,20 +173,47 @@ export const NavbarContainer = styled.div`
       }
     }
     .flagW {
-      //background-color: blue;
       display: flex;
-      flex-direction: column;
       align-items: center;
-      justify-content: flex-start;
-      flex-wrap: wrap;
-      gap: 0.2em;
-      height: 13em;
-      width: 0;
+      gap: 0.25em;
       position: absolute;
-      top: 4em;
-      right: 3em;
+      top: 125%;
+      left: 7.5%;
       img {
-        width: 18px;
+        width: 4.5%;
+        border-radius: 100%;
+        border: 2px solid transparent;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          box-shadow: 0px 0px 10px 3px white;
+        }
+      }
+
+      .active {
+        border: 2px solid white;
+      }
+    }
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 1000px) {
+    .flagW {
+      display: flex;
+      align-items: center;
+      gap: 0.25em;
+      position: absolute;
+      top: 110%;
+      left: 15%;
+      img {
+        width: 5%;
+        border-radius: 100%;
+        border: 2px solid transparent;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          box-shadow: 0px 0px 10px 3px white;
+        }
       }
     }
   }

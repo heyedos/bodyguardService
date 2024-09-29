@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 export const ReferencesContainer = styled.div`
-  width: 100%;
+  width: auto;
   background-color: white;
   display: flex;
   justify-content: center;
   z-index: 10;
-  padding-top: 75px;
+  padding-top: 130px;
+  position: relative;
+  top: -12em;
+  height: auto;
 
   .inner-container {
-    padding-top: 3em;
     .title-container {
       background-color: white;
 
@@ -19,11 +21,11 @@ export const ReferencesContainer = styled.div`
         font-size: 50px;
         color: black;
         margin: 0;
+        padding-bottom: 1em;
       }
     }
 
     .bottom-container {
-      margin-top: 1em;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -31,12 +33,12 @@ export const ReferencesContainer = styled.div`
       .images-container {
         display: flex;
         flex-wrap: wrap;
-        width: 80vw;
+        width: 80%;
         align-items: center;
         justify-content: center;
         gap: 1.75em;
         img {
-          width: 150px;
+          width: 140px;
           object-fit: fill;
         }
       }

@@ -9,11 +9,9 @@ interface PageContainerDivProps {
 
 export const PageContainerDiv = styled.div<PageContainerDivProps>`
   display: grid;
-  position: absolute;
+  position: relative;
   font-family: "Roboto Slab", serif;
-  /* background-image: url(${background}); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
 
   .navbar {
     position: fixed;
@@ -24,7 +22,6 @@ export const PageContainerDiv = styled.div<PageContainerDivProps>`
   .home {
     margin-top: 130px;
   }
-
   .scroll-to-top {
     position: fixed;
     opacity: ${({ isAtTop }) => (isAtTop ? "0" : "100")};
@@ -48,7 +45,7 @@ export const PageContainerDiv = styled.div<PageContainerDivProps>`
       font-size: 25px;
     }
   }
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1200px) {
     .home {
       margin-top: 75px;
     }

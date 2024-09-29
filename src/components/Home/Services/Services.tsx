@@ -59,10 +59,8 @@ export const Services = ({ servicesRef, selectedLanguage }: ServicesProps) => {
             <h1>{lang.bodyguard.title2}</h1>
             <p>{lang.bodyguard.content}</p>
           </div>
-          <div className="image-container">
-            {selectedLanguage === "german" && <img src={germanImg} alt="" />}
-            {selectedLanguage === "french" && <img src={frenchImg} alt="" />}
-          </div>
+          {selectedLanguage === "german" && <img src={germanImg} alt="" />}
+          {selectedLanguage === "french" && <img src={frenchImg} alt="" />}
         </div>
         <div className="box-2 ImgBoth">
           <div className="leftImg">

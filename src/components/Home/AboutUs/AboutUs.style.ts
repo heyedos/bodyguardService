@@ -6,7 +6,9 @@ export const AboutUsContainer = styled.div`
   display: flex;
   justify-content: center;
   z-index: 10;
-  padding-top: 75px;
+  padding-top: 120px;
+  position: relative;
+  top: -5em;
 
   .inner-container {
     width: 100%;
@@ -19,17 +21,30 @@ export const AboutUsContainer = styled.div`
       width: 300px;
       object-fit: contain;
     }
+    /* .mid-container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 100%;
+      width: auto;
+    } */
+    .mid-container {
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+      padding-top: 1em;
+    }
     .title-container {
-      margin-top: 0.2em;
       background-color: white;
 
       h1 {
         text-align: center;
-        padding-top: 0.75em;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
         color: black;
         margin: 0;
+        padding-top: 1em;
       }
     }
 
@@ -50,8 +65,7 @@ export const AboutUsContainer = styled.div`
         p {
           font-weight: 400;
           color: black;
-          font-size: 20px;
-          padding-top: 1em;
+          font-size: 16px;
           margin: 0;
         }
       }

@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import background from "../../../assets/services/5.jpeg";
 
 export const ServicesContainer = styled.div`
   position: relative;
-  padding-top: 50px;
+  padding-top: 125px;
+  top: -10em;
   width: 100%;
   z-index: 0;
   display: flex;
@@ -29,19 +29,11 @@ export const ServicesContainer = styled.div`
 
     .box-1 {
       border-radius: 20px;
-      /* background-color: #646b6e; */
       width: 80%;
       display: flex;
-      /* flex-direction: column; */
       padding: 20px;
+      padding-bottom: 5em;
       align-items: center;
-
-      /* .image-container {
-        img {
-          height: 500px;
-          width: 100%;
-        }
-      } */
 
       .text-container {
         border-radius: 10px;
@@ -52,46 +44,35 @@ export const ServicesContainer = styled.div`
         h1 {
           text-align: center;
           margin: 0;
-          padding-top: 1em;
+          padding-top: 0.5em;
+          font-size: 30px;
         }
 
         p {
           font-weight: bold;
-          font-size: 20px;
+          font-size: 14px;
         }
       }
     }
 
     .box-2 {
       border-radius: 20px;
-      /* background-color: #646b6e; */
       box-sizing: border-box;
       width: 80%;
       display: flex;
 
       justify-content: center;
-      padding: 20px;
-      /* border : 5px solid white; */
+      padding: 10px;
       color: black;
-
-      /* .image-container {
-                height: 20%;
-                img {
-                    height : 400px;
-                    width: 300px;
-                    object-fit: cover;
-                    object-position: 0px -50px;
-     
-                }
-            } */
 
       .text-container {
         h1 {
           text-align: center;
+          font-size: 30px;
         }
         p {
           font-weight: bold;
-          font-size: 20px;
+          font-size: 14px;
         }
       }
     }
@@ -105,11 +86,11 @@ export const ServicesContainer = styled.div`
     .keyWords {
       width: 78%;
       p {
-        font-size: 20px;
+        font-size: 14px;
       }
     }
   }
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1200px) {
     .ImgBoth {
       flex-direction: column;
       .text-container {
@@ -118,6 +99,9 @@ export const ServicesContainer = styled.div`
     }
     .box-1 {
       flex-direction: column;
+      img {
+        width: 90%;
+      }
     }
   }
 `;

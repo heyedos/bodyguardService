@@ -14,7 +14,7 @@ export const SliderContainer = styled.div`
         .slider {
           width: 50%;
           .slide {
-            height: 540px;
+            height: 450px;
             .image-container {
               height: 100%;
               img {

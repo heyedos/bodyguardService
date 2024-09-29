@@ -3,17 +3,14 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   position: relative;
   z-index: 100;
-  bottom: 0;
   width: 100%;
-  margin-top: 200px;
   background-color: gray;
   padding-top: 1em;
   padding-bottom: 1.5em;
-  width: 100%;
   display: flex;
   justify-content: center;
   .Footer {
-    padding-left: 0em;
+    padding-left: 0;
     h3 {
       margin: 0;
     }

@@ -4,6 +4,8 @@ export const SliderContainer = styled.div`
   width: 100%;
   box-sizing: border-box;
   z-index: 100;
+  position: relative;
+  top: -8.5em;
 
   .carousel-root {
     .carousel {
@@ -14,7 +16,7 @@ export const SliderContainer = styled.div`
         .slider {
           width: 50%;
           .slide {
-            height: 530px;
+            height: 450px;
             .image-container {
               height: 100%;
               img {

@@ -71,164 +71,102 @@ export const Navbar = ({
             <li className="wpIcon">
               <div>
                 <h3 onClick={() => scrollToItem("footer")}>Contact</h3>
-                <p>+905438818113</p>
+                <a href="tel:+905438818113">
+                  <p>+905438818113</p>
+                </a>
               </div>
               <div className="rightIcons">
                 <div className="wpDiv">
                   <a href="https://wa.me/905438818113">
-                    <img
-                      src={wpIcon}
-                      alt="whatshapp icon"
-                      /* onClick={() => {
-                    setNumberOpen((e) => !e);
-                  }} */
-                    />
+                    <img src={wpIcon} alt="whatshapp icon" />
                   </a>
                 </div>
-                <div className="arrows">
-                  {windowSize < 1000 && !isArrowOpen && (
-                    <div>
-                      <img
-                        src={arrowIcon}
-                        alt=""
-                        className="arrowIcon"
-                        onClick={() => {
-                          setIsArrowOpen(true);
-                        }}
-                      />
-                    </div>
-                  )}
-                  {windowSize < 1000 && isArrowOpen && (
-                    <div>
-                      <img
-                        src={arrowIcon}
-                        alt=""
-                        className="arrowIcon close"
-                        onClick={() => {
-                          setIsArrowOpen(false);
-                        }}
-                      />
-                    </div>
-                  )}
-                </div>
-                {isArrowOpen && windowSize < 1000 && (
-                  <div className="flag-container flagW">
-                    <img
-                      onClick={() => setSelectedLanguage("english")}
-                      src={flags.UKingdomFlag}
-                      className={`${
-                        selectedLanguage === "english" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("turkish")}
-                      src={flags.TurkeyFlag}
-                      className={`${
-                        selectedLanguage === "turkish" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("german")}
-                      src={flags.GermanyFlag}
-                      className={`${
-                        selectedLanguage === "german" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("russian")}
-                      src={flags.RussianFlag}
-                      className={`${
-                        selectedLanguage === "russian" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("arabic")}
-                      src={flags.SaudiArabicFlag}
-                      className={`${
-                        selectedLanguage === "arabic" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("ukraine")}
-                      src={flags.UkraineFlag}
-                      className={`${
-                        selectedLanguage === "ukraine" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("italian")}
-                      src={flags.ItalianFlag}
-                      className={`${
-                        selectedLanguage === "italian" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("persian")}
-                      src={flags.IranFlag}
-                      className={`${
-                        selectedLanguage === "persian" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("chinese")}
-                      src={flags.chineseFlag}
-                      className={`${
-                        selectedLanguage === "chinese" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("french")}
-                      src={flags.frenchFlag}
-                      className={`${
-                        selectedLanguage === "french" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("greece")}
-                      src={flags.greeceFlag}
-                      className={`${
-                        selectedLanguage === "greece" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("japon")}
-                      src={flags.japonFlag}
-                      className={`${
-                        selectedLanguage === "japon" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("korean")}
-                      src={flags.koreanFlag}
-                      className={`${
-                        selectedLanguage === "korean" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("pakistan")}
-                      src={flags.pakistanFlag}
-                      className={`${
-                        selectedLanguage === "pakistan" ? "active" : ""
-                      }`}
-                    />
-                    <img
-                      onClick={() => setSelectedLanguage("romanian")}
-                      src={flags.romanianFlag}
-                      className={`${
-                        selectedLanguage === "romanian" ? "active" : ""
-                      }`}
-                    />
-                  </div>
-                )}
               </div>
-
-              {/* {numberOpen && <p className="popupNumber">+90 543 881 8113</p>} */}
             </li>
           </ul>
         </div>
       </div>
-      {windowSize > 1000 && (
+      {windowSize > 1200 && (
         <div className="flag-container">
+          <img
+            onClick={() => setSelectedLanguage("english")}
+            src={flags.UKingdomFlag}
+            className={`${selectedLanguage === "english" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("turkish")}
+            src={flags.TurkeyFlag}
+            className={`${selectedLanguage === "turkish" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("german")}
+            src={flags.GermanyFlag}
+            className={`${selectedLanguage === "german" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("russian")}
+            src={flags.RussianFlag}
+            className={`${selectedLanguage === "russian" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("arabic")}
+            src={flags.SaudiArabicFlag}
+            className={`${selectedLanguage === "arabic" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("ukraine")}
+            src={flags.UkraineFlag}
+            className={`${selectedLanguage === "ukraine" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("italian")}
+            src={flags.ItalianFlag}
+            className={`${selectedLanguage === "italian" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("persian")}
+            src={flags.IranFlag}
+            className={`${selectedLanguage === "persian" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("chinese")}
+            src={flags.chineseFlag}
+            className={`${selectedLanguage === "chinese" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("french")}
+            src={flags.frenchFlag}
+            className={`${selectedLanguage === "french" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("greece")}
+            src={flags.greeceFlag}
+            className={`${selectedLanguage === "greece" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("japon")}
+            src={flags.japonFlag}
+            className={`${selectedLanguage === "japon" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("korean")}
+            src={flags.koreanFlag}
+            className={`${selectedLanguage === "korean" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("pakistan")}
+            src={flags.pakistanFlag}
+            className={`${selectedLanguage === "pakistan" ? "active" : ""}`}
+          />
+          <img
+            onClick={() => setSelectedLanguage("romanian")}
+            src={flags.romanianFlag}
+            className={`${selectedLanguage === "romanian" ? "active" : ""}`}
+          />
+        </div>
+      )}
+      {windowSize < 1200 && (
+        <div className="flagW">
           <img
             onClick={() => setSelectedLanguage("english")}
             src={flags.UKingdomFlag}
