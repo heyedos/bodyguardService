@@ -32,18 +32,14 @@ export const ServicesContainer = styled.div`
       /* background-color: #646b6e; */
       width: 80%;
       display: flex;
-
+      /* flex-direction: column; */
       padding: 20px;
-      /* border : 5px solid white; */
+      align-items: center;
 
       /* .image-container {
-        height: 20%;
-
         img {
-          height: 400px;
-          width: 300px;
-          object-fit: cover;
-          object-position: -80px 0px;
+          height: 500px;
+          width: 100%;
         }
       } */
 
@@ -119,6 +115,9 @@ export const ServicesContainer = styled.div`
       .text-container {
         width: 90%;
       }
+    }
+    .box-1 {
+      flex-direction: column;
     }
   }
 `;

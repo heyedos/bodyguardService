@@ -27,7 +27,7 @@ export const AboutUsContainer = styled.div`
         text-align: center;
         padding-top: 0.75em;
         font-weight: bold;
-        font-size: 50px;
+        font-size: 40px;
         color: black;
         margin: 0;
       }

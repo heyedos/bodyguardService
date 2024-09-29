@@ -45,6 +45,13 @@ export const NavbarContainer = styled.div`
     align-items: center;
     gap: 1em;
     position: relative;
+    p {
+      color: white;
+      opacity: 50%;
+      position: absolute;
+      bottom: -1.5em;
+      right: 3em;
+    }
     .arrows {
       position: absolute;
       top: 90%;
@@ -129,6 +136,10 @@ export const NavbarContainer = styled.div`
     .wpIcon {
       padding-right: 0.5em;
       gap: 5px;
+      p {
+        opacity: 100%;
+        right: 2.5em;
+      }
       .wpDiv {
         width: 2em;
       }
