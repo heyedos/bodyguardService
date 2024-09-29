@@ -12,7 +12,7 @@ export const PageContainerDiv = styled.div<PageContainerDivProps>`
   position: relative;
   font-family: "Roboto Slab", serif;
   width: 100%;
-
+  height: auto;
   .navbar {
     position: fixed;
     top: 0;

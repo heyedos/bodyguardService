@@ -8,14 +8,13 @@ export const AboutUsContainer = styled.div`
   z-index: 10;
   padding-top: 120px;
   position: relative;
-  top: -5em;
+  top: -6em;
 
   .inner-container {
     width: 100%;
     display: flex;
     align-items: center;
     gap: 1em;
-
     img {
       height: 400px;
       width: 300px;
@@ -53,12 +52,6 @@ export const AboutUsContainer = styled.div`
       flex-direction: column;
       align-items: center;
 
-      .image-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
       .text-button-container {
         display: flex;
         flex-direction: column;
@@ -77,10 +70,19 @@ export const AboutUsContainer = styled.div`
       width: 90%;
       gap: 0;
       .rightImg {
-        padding-top: 20px;
+        padding-top: 40px;
       }
       img {
         width: 100%;
+        height: 200px;
+      }
+      .mid-container {
+        padding-top: 0;
+      }
+      .title-container {
+        h1 {
+          padding-top: 0.5em;
+        }
       }
     }
   }

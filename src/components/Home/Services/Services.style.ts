@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
   position: relative;
-  padding-top: 125px;
+  padding-top: 50px;
   top: -10em;
   width: 100%;
   z-index: 0;
@@ -32,7 +32,6 @@ export const ServicesContainer = styled.div`
       width: 80%;
       display: flex;
       padding: 20px;
-      padding-bottom: 5em;
       align-items: center;
 
       .text-container {
@@ -96,6 +95,7 @@ export const ServicesContainer = styled.div`
       width: 90%;
       img {
         width: 100%;
+        height: 200px;
       }
       .text-container {
         width: 90%;

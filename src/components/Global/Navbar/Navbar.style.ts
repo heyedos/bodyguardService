@@ -14,8 +14,8 @@ export const NavbarContainer = styled.div`
     align-items: center;
     justify-content: center;
     width: 27%;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0;
+    padding-right: 0;
 
     .inner-logo-container {
       display: flex;
@@ -25,6 +25,7 @@ export const NavbarContainer = styled.div`
 
       img {
         width: 22%;
+        min-width: 25px;
       }
 
       .title-container {
@@ -104,6 +105,7 @@ export const NavbarContainer = styled.div`
     gap: 0.25em;
     width: 25%;
     max-width: 500px;
+    padding-right: 1em;
     img {
       width: 100%;
       border-radius: 100%;
@@ -144,7 +146,8 @@ export const NavbarContainer = styled.div`
     }
     .logo-container {
       width: 10%;
-      padding-right: 0;
+      padding-right: 0.5em;
+      padding-left: 0.5em;
       .inner-logo-container {
         width: 100%;
         img {
@@ -177,7 +180,7 @@ export const NavbarContainer = styled.div`
       align-items: center;
       gap: 0.25em;
       position: absolute;
-      top: 125%;
+      top: 105%;
       left: 7.5%;
       img {
         width: 4.5%;

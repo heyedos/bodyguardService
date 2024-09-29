@@ -38,8 +38,21 @@ export const ReferencesContainer = styled.div`
         justify-content: center;
         gap: 1.75em;
         img {
-          width: 140px;
+          width: 120px;
           object-fit: fill;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    padding-top: 90px;
+    .inner-container {
+      .bottom-container {
+        .images-container {
+          width: 90%;
+          img {
+            width: 50px;
+          }
         }
       }
     }

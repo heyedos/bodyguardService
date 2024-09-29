@@ -46,6 +46,17 @@ export const SliderContainer = styled.div`
         .slider-wrapper {
           .slider {
             width: 100%;
+            .slide {
+              height: 250px;
+              .image-container {
+                height: 100%;
+                img {
+                  width: 80%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+              }
+            }
           }
         }
       }

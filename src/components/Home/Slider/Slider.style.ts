@@ -42,6 +42,9 @@ export const SliderContainer = styled.div`
         .slider-wrapper {
           .slider {
             width: 100%;
+            .slide {
+              height: 225px;
+            }
           }
         }
       }
