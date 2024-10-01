@@ -81,11 +81,6 @@ export const ServicesContainer = styled.div`
       display: flex;
       align-items: center;
       gap: 1em;
-      img {
-        height: 400px;
-        width: 300px;
-        object-fit: contain;
-      }
     }
     .keyWords {
       width: 78%;
@@ -102,15 +97,17 @@ export const ServicesContainer = styled.div`
     }
   }
   @media only screen and (max-width: 1200px) {
-    .ImgBoth {
-      flex-direction: column;
-      width: 90%;
-      img {
-        width: 100%;
-        height: 200px;
-      }
-      .text-container {
+    .inner-container {
+      .ImgBoth {
+        flex-direction: column;
         width: 90%;
+        img {
+          width: 100%;
+          height: 200px;
+        }
+        .text-container {
+          width: 90%;
+        }
       }
     }
     .box-1 {
