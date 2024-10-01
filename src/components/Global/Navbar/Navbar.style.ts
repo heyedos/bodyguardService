@@ -141,6 +141,7 @@ export const NavbarContainer = styled.div`
   @media only screen and (max-width: 1200px) {
     height: 75px;
     gap: 0;
+    width: 100%;
     .wpIcon {
       padding-right: 0.5em;
       gap: 5px;
@@ -213,6 +214,7 @@ export const NavbarContainer = styled.div`
     }
   }
   @media only screen and (min-width: 600px) and (max-width: 1200px) {
+    width: 100%;
     .flagW {
       img {
         width: 3%;
@@ -221,6 +223,7 @@ export const NavbarContainer = styled.div`
   }
 
   @media only screen and (max-width: 400px) {
+    width: 100%;
     .logo-container {
       display: none;
       .inner-logo-container {

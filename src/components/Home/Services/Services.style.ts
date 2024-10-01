@@ -115,12 +115,14 @@ export const ServicesContainer = styled.div`
       }
     }
   }
-  .merco {
-    flex-direction: column;
-    align-items: center;
-    img {
-      width: 350px;
-      height: 250px;
+  @media only screen and (max-width: 600px) {
+    .merco {
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 350px;
+        height: 250px;
+      }
     }
   }
 `;
