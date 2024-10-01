@@ -151,7 +151,10 @@ export const NavbarContainer = styled.div`
         right: 2.5em;
       }
       .wpDiv {
-        width: 2em;
+        width: 2.75em;
+        position: absolute;
+        top: 0.75em;
+        right: 9em;
       }
     }
     .logo-container {

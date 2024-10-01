@@ -47,13 +47,13 @@ export const SliderContainer = styled.div`
           .slider {
             width: 100%;
             .slide {
-              height: 250px;
+              height: 300px;
               .image-container {
                 height: 100%;
                 img {
-                  width: 80%;
+                  width: 100%;
                   height: 100%;
-                  object-fit: initial;
+                  object-fit: cover;
                 }
               }
             }

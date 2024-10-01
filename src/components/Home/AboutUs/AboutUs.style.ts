@@ -6,7 +6,7 @@ export const AboutUsContainer = styled.div`
   display: flex;
   justify-content: center;
   z-index: 10;
-  padding-top: 120px;
+  padding-top: 140px;
   position: relative;
   top: -6em;
 

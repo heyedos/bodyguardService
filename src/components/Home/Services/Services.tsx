@@ -120,7 +120,7 @@ export const Services = ({ servicesRef, selectedLanguage }: ServicesProps) => {
             <h1>{lang.mercedesVito.title}</h1>
             <p>{lang.mercedesVito.content}</p>
           </div>
-          <img src={mercedesVito} alt="" />
+          <img src={mercedesVito} alt="" title="" />
           {/* <div className="image-container">
             <img src={images.Image2} alt="" />
           </div> */}
