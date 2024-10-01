@@ -45,7 +45,6 @@ export const ReferencesContainer = styled.div`
     }
   }
   @media only screen and (max-width: 1000px) {
-    padding-top: 90px;
     .inner-container {
       .bottom-container {
         .images-container {
