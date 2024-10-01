@@ -22,7 +22,6 @@ export const SliderContainer = styled.div`
               img {
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
               }
             }
           }
@@ -53,7 +52,6 @@ export const SliderContainer = styled.div`
                 img {
                   width: 100%;
                   height: 100%;
-                  object-fit: cover;
                 }
               }
             }
