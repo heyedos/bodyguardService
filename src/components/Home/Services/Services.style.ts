@@ -89,6 +89,13 @@ export const ServicesContainer = styled.div`
       }
     }
   }
+  .merco {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 50%;
+    }
+  }
   @media only screen and (max-width: 1200px) {
     .ImgBoth {
       flex-direction: column;
@@ -106,6 +113,14 @@ export const ServicesContainer = styled.div`
       img {
         width: 100%;
       }
+    }
+  }
+  .merco {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 350px;
+      height: 250px;
     }
   }
 `;

@@ -13,11 +13,6 @@ export const PageContainerDiv = styled.div<PageContainerDivProps>`
   font-family: "Roboto Slab", serif;
   width: 100%;
   height: auto;
-  .navbar {
-    position: fixed;
-    top: 0;
-    z-index: 999;
-  }
 
   .home {
     margin-top: 130px;
@@ -47,7 +42,7 @@ export const PageContainerDiv = styled.div<PageContainerDivProps>`
   }
   @media only screen and (max-width: 1200px) {
     .home {
-      margin-top: 75px;
+      margin-top: 55px;
     }
     .scroll-to-top {
       right: 25px;

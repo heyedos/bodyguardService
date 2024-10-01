@@ -7,6 +7,7 @@ import leftImg from "../../../assets/services/sideImg3.jpg";
 import rightImg from "../../../assets/services/sideImg4.jpg";
 import germanImg from "../../../assets/slider/slider-4.jpg";
 import frenchImg from "../../../assets/slider/slider-6.jpg";
+import mercedesVito from "../../../assets/services/mercedes-vito.jpg";
 import { servicesText } from "./Languages";
 
 interface ServicesProps {
@@ -114,11 +115,12 @@ export const Services = ({ servicesRef, selectedLanguage }: ServicesProps) => {
             <img src={images.Image2} alt="" />
           </div> */}
         </div>
-        <div className="box-2">
+        <div className="box-2 merco">
           <div className="text-container">
             <h1>{lang.mercedesVito.title}</h1>
             <p>{lang.mercedesVito.content}</p>
           </div>
+          <img src={mercedesVito} alt="" />
           {/* <div className="image-container">
             <img src={images.Image2} alt="" />
           </div> */}

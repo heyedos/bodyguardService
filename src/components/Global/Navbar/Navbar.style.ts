@@ -1,13 +1,22 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
-  width: 100%;
-  background-color: #080c0f;
   display: flex;
+  flex-direction: column;
+  width: 100%;
   align-items: center;
-  gap: 2em;
-  height: 130px;
-  position: relative;
+  .navBAR {
+    position: fixed;
+    top: 0;
+    z-index: 995;
+    width: 100%;
+    background-color: #080c0f;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    height: 120px;
+    padding-top: 10px;
+  }
   .logo-container {
     //background-color: red;
     display: flex;
@@ -129,7 +138,7 @@ export const NavbarContainer = styled.div`
     transform: rotate(180deg);
   }
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1200px) {
     height: 75px;
     gap: 0;
     .wpIcon {
@@ -178,12 +187,16 @@ export const NavbarContainer = styled.div`
     .flagW {
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 0.25em;
       position: absolute;
-      top: 105%;
-      left: 7.5%;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      background-color: #080c0f;
+      padding-top: 5px;
       img {
-        width: 4.5%;
+        width: 5%;
         border-radius: 100%;
         border: 2px solid transparent;
         transition: 0.5s ease-in-out;
@@ -199,23 +212,24 @@ export const NavbarContainer = styled.div`
       }
     }
   }
-  @media only screen and (max-width: 1200px) and (min-width: 1000px) {
+  @media only screen and (min-width: 600px) and (max-width: 1200px) {
     .flagW {
-      display: flex;
-      align-items: center;
-      gap: 0.25em;
-      position: absolute;
-      top: 110%;
-      left: 15%;
       img {
-        width: 5%;
-        border-radius: 100%;
-        border: 2px solid transparent;
-        transition: 0.5s ease-in-out;
-        cursor: pointer;
+        width: 3%;
+      }
+    }
+  }
 
-        &:hover {
-          box-shadow: 0px 0px 10px 3px white;
+  @media only screen and (max-width: 400px) {
+    .logo-container {
+      display: none;
+      .inner-logo-container {
+        display: none;
+        img {
+          width: 0;
+        }
+        .title-container {
+          display: none;
         }
       }
     }

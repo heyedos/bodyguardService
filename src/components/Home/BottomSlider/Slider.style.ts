@@ -53,7 +53,7 @@ export const SliderContainer = styled.div`
                 img {
                   width: 80%;
                   height: 100%;
-                  object-fit: cover;
+                  object-fit: initial;
                 }
               }
             }
