@@ -22,7 +22,7 @@ export const NavbarContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 27%;
+    width: 30%;
     padding-left: 0;
     padding-right: 0;
 
@@ -61,10 +61,13 @@ export const NavbarContainer = styled.div`
       opacity: 50%;
       position: absolute;
       bottom: -2em;
-      right: 3em;
+      right: 0em;
     }
     .wpDiv {
-      width: 4em;
+      width: 3.5em;
+      position: absolute;
+      top: 0.75em;
+      right: 7em;
       img {
         width: 100%;
         cursor: pointer;
@@ -81,6 +84,7 @@ export const NavbarContainer = styled.div`
     display: flex;
     align-items: center;
     width: 48%;
+    padding-bottom: 1em;
     .inner-list-container {
       ul {
         list-style: none;

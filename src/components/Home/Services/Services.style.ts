@@ -27,6 +27,12 @@ export const ServicesContainer = styled.div`
     justify-content: space-around;
     align-items: center;
 
+    .ImgBoth {
+      img {
+        width: 100%;
+      }
+    }
+
     .box-1 {
       border-radius: 20px;
       width: 80%;
